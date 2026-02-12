@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MÝVAL – práčovňa a čistiareň | Kvalita a tradícia od roku 1936</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container navbar-content">
+      <a href="/index.html" class="logo-link">
+        <img src="/logo.png" alt="MÝVAL" class="logo-img">
+      </a>
+      <div class="nav-links">
+        <a href="/about.html">O nás</a>
+        <a href="/services.html">Služby</a>
+        <a href="/contact.html">Kontakt</a>
+        <a href="/contact.html#quote" class="btn btn-primary">Cenová ponuka</a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </nav>
+
+  <div id="app">
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Kvalita a tradícia <br> <span class="highlight">od roku 1936</span></h1>
+          <p class="hero-subtitle">Profesionálne pranie, čistenie a starostlivosť o vaše textílie. Pre hotely,
+            zdravotníctvo, firmy aj domácnosti.</p>
+          <div class="hero-buttons">
+            <a href="#services" class="btn btn-primary">Naše služby</a>
+            <a href="#contact" class="btn btn-outline">Kontaktujte nás</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">O nás</h2>
+          <p>Spoločnosť Mýval s.r.o. nadväzuje na dlhoročnú rodinnú tradíciu Pavla a Ruženy Škrovinovcov.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section id="services" class="section services-section">
+      <div class="container">
+        <h2 class="section-title text-center">Naše služby</h2>
+        <div class="services-grid">
+          <!-- Hotel & Restaurant -->
+          <a href="/hotels.html" class="service-card">
+            <div class="icon-wrapper">
+              <i data-lucide="map-pin" class="feature-icon"></i>
+            </div>
+            <h3>Hotely a reštaurácie</h3>
+            <p>priemyselné pranie, žehlenie, rozvoz bielizne pre hotely a reštaurácie</p>
+          </a>
+
+          <!-- Healthcare -->
+          <a href="/healthcare.html" class="service-card">
+            <div class="icon-wrapper">
+              <i data-lucide="check" class="feature-icon"></i>
+            </div>
+            <h3>Zdravotnícke zariadenia</h3>
+            <p>komplexný hygienický režim pre nemocnice, ambulancie, domovy dôchodcov</p>
+          </a>
+
+          <!-- Industry -->
+          <a href="/industry.html" class="service-card">
+            <div class="icon-wrapper">
+              <i data-lucide="clock" class="feature-icon"></i>
+            </div>
+            <h3>Priemysel a výskum</h3>
+            <p>ošetrovanie všetkých druhov pracovných odevov</p>
+          </a>
+
+          <!-- Private -->
+          <a href="/private.html" class="service-card">
+            <div class="icon-wrapper">
+              <i data-lucide="check" class="feature-icon"></i>
+            </div>
+            <h3>Súkromné osoby</h3>
+            <p>ušetrite svoj čas a zverte svoje odevy do rúk odborníkov</p>
+          </a>
+
+          <!-- Special -->
+          <a href="/special.html" class="service-card">
+            <div class="icon-wrapper">
+              <i data-lucide="layers" class="feature-icon"></i>
+            </div>
+            <h3>Špeciálne služby</h3>
+            <p>ošetrovanie kobercov, impregnácia</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <p>&copy; 2026 MÝVAL s.r.o.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

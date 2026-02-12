@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Služby | MÝVAL - Komplexná starostlivosť o textílie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="/index.html" class="logo-link">
+                <img src="/logo.png" alt="MÝVAL" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="/about.html">O nás</a>
+                <a href="/services.html" class="active">Služby</a>
+                <a href="/contact.html">Kontakt</a>
+                <a href="/contact.html#quote" class="btn btn-primary">Cenová ponuka</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div id="app">
+        <header class="page-header">
+            <div class="container text-center">
+                <h1 class="section-title">Naše služby</h1>
+                <p class="subtitle">Profesionálne riešenia pre každého klienta.</p>
+            </div>
+        </header>
+
+        <section class="section service-detail-section">
+            <div class="container">
+
+                <!-- Hotely a reštaurácie -->
+                <article class="service-detail" id="hotels">
+                    <div class="service-content">
+                        <div class="icon-largebox">
+                            <i data-lucide="bed-double" class="large-icon"></i>
+                        </div>
+                        <h2>Hotely a reštaurácie</h2>
+                        <p>Poskytujeme komplexný servis pre ubytovacie a stravovacie zariadenia. Čistota a belosť
+                            bielizne je vizitkou každého hotela.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check-circle"></i> Prenájom hotelovej bielizne a obrusov (ideálne pre
+                                svadby a sezónne špičky).</li>
+                            <li><i data-lucide="check-circle"></i> Krajčírske opravy hotelovej bielizne.</li>
+                            <li><i data-lucide="check-circle"></i> Poradenstvo pri výbere novej bielizne + bezplatné
+                                testovanie.</li>
+                            <li><i data-lucide="check-circle"></i> Pravidelný rozvoz pre zmluvných partnerov.</li>
+                            <li><i data-lucide="check-circle"></i> Používame profesionálne prostriedky <strong>Procter &
+                                    Gamble</strong>.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Zdravotnícke zariadenia -->
+                <article class="service-detail" id="healthcare">
+                    <div class="service-content">
+                        <div class="icon-largebox">
+                            <i data-lucide="stethoscope" class="large-icon"></i>
+                        </div>
+                        <h2>Zdravotnícke zariadenia</h2>
+                        <p>Špecializovaný hygienický režim pre nemocnice, ambulancie a domovy sociálnych služieb.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check-circle"></i> Prísne dodržiavanie hygienických noriem (bezchlórová
+                                dezinfekcia).</li>
+                            <li><i data-lucide="check-circle"></i> Príjem a expedícia podľa oddelení.</li>
+                            <li><i data-lucide="check-circle"></i> Zabezpečenie transportných vriec a vozíkov.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Priemysel -->
+                <article class="service-detail" id="industry">
+                    <div class="service-content">
+                        <div class="icon-largebox">
+                            <i data-lucide="factory" class="large-icon"></i>
+                        </div>
+                        <h2>Priemysel a výskum</h2>
+                        <p>Starostlivosť o pracovné odevy pre ťažký priemysel, laboratóriá či potravinárstvo.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check-circle"></i> Značenie odevov čiarovým kódom pre presnú evidenciu.
+                            </li>
+                            <li><i data-lucide="check-circle"></i> Sledovanie pohybu odevov a životnosti.</li>
+                            <li><i data-lucide="check-circle"></i> Opravy a úpravy na mieru.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Súkromné osoby -->
+                <article class="service-detail" id="private">
+                    <div class="service-content">
+                        <div class="icon-largebox">
+                            <i data-lucide="shirt" class="large-icon"></i>
+                        </div>
+                        <h2>Súkromné osoby</h2>
+                        <p>Ušetrite čas a nechajte starostlivosť o vaše oblečenie na odborníkov.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check-circle"></i> Pranie a žehlenie košieľ, blúzok, posteľnej bielizne.
+                            </li>
+                            <li><i data-lucide="check-circle"></i> Ošetrovanie páperových vetroviek a Gore-Tex oblečenia
+                                (impregnácia).</li>
+                            <li><i data-lucide="check-circle"></i> Profesionálne čistenie oblekov a spoločenských šiat.
+                            </li>
+                            <li><i data-lucide="check-circle"></i> Detáš (odstraňovanie škvŕn).</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Koberce -->
+                <article class="service-detail" id="carpets">
+                    <div class="service-content">
+                        <div class="icon-largebox">
+                            <i data-lucide="layers" class="large-icon"></i>
+                        </div>
+                        <h2>Špeciálne služby (Koberce)</h2>
+                        <ul class="service-features">
+                            <li><i data-lucide="check-circle"></i> Hĺbkové tepovanie kobercov (krátky aj dlhý vlas).
+                            </li>
+                            <li><i data-lucide="check-circle"></i> Pranie kobercov pre oživenie farieb a hĺbkové
+                                čistenie.</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MÝVAL s.r.o.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
