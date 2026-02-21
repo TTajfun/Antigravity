@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="sk" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÝVAL – Profesionálna práčovňa a čistiareň</title>
+    <meta name="description"
+        content="Kvalita a tradícia od roku 1936. Profesionálne pranie a čistenie pre hotely, zdravotníctvo, priemysel a domácnosti.">
+    <!-- Tailwind Output -->
+    <link rel="stylesheet" href="output.css">
+    <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="font-body text-gray-800 bg-gray-50 antialiased selection:bg-myval-blue selection:text-white">
+
+    <!-- Top Bar -->
+    <div class="bg-myval-navy text-white text-sm py-2 px-4 shadow-sm relative z-50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-6 opacity-90">
+                <span class="flex items-center gap-2"><i class="fa-solid fa-phone text-myval-accent"></i> +421 (0)48 611
+                    3161</span>
+                <span class="flex items-center gap-2"><i class="fa-solid fa-clock text-myval-accent"></i> Po-Pi: 7:00 -
+                    16:00</span>
+            </div>
+            <div class="flex items-center gap-4 opacity-90">
+                <a href="mailto:myval@myval.sk" class="hover:text-myval-accent transition-colors"><i
+                        class="fa-solid fa-envelope mr-1"></i> myval@myval.sk</a>
+                <a href="https://www.facebook.com/M%C3%BDval-sro-111510672293630/" target="_blank"
+                    class="hover:text-myval-accent transition-colors"><i class="fa-brands fa-facebook mr-1"></i>
+                    Facebook</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Nav -->
+    <header
+        class="bg-white/95 backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.03)] sticky top-0 z-40 transition-all duration-300"
+        id="main-header">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="flex-shrink-0 group">
+                <img src="assets/logo-myval-small.png" alt="MÝVAL Logo"
+                    class="h-12 w-auto group-hover:opacity-90 transition-opacity">
+            </a>
+
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="#home"
+                    class="font-heading font-semibold text-myval-dark hover:text-myval-blue transition-colors relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-0.5 after:bg-myval-blue after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">Domov</a>
+                <a href="#about"
+                    class="font-heading font-medium text-gray-600 hover:text-myval-blue transition-colors">O nás</a>
+                <div class="relative group">
+                    <a href="#services"
+                        class="font-heading font-medium text-gray-600 hover:text-myval-blue transition-colors flex items-center gap-1">
+                        Služby <i
+                            class="fa-solid fa-chevron-down text-xs transition-transform group-hover:rotate-180 duration-200"></i>
+                    </a>
+                    <div
+                        class="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-64 bg-white rounded-2xl shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2 z-50">
+                        <a href="hotely-a-restauracie.html"
+                            class="flex items-center gap-3 px-4 py-2.5 hover:bg-blue-50 text-gray-700 hover:text-myval-blue text-sm"><i
+                                class="fa-solid fa-bed w-5"></i> Hotely a reštaurácie</a>
+                        <a href="zdravotnicke-zariadenia.html"
+                            class="flex items-center gap-3 px-4 py-2.5 hover:bg-blue-50 text-gray-700 hover:text-myval-blue text-sm"><i
+                                class="fa-solid fa-staff-snake w-5"></i> Zdravotnícke zariadenia</a>
+                        <a href="priemysel-a-vyskum.html"
+                            class="flex items-center gap-3 px-4 py-2.5 hover:bg-blue-50 text-gray-700 hover:text-myval-blue text-sm"><i
+                                class="fa-solid fa-industry w-5"></i> Priemysel a výskum</a>
+                        <a href="sukromne-osoby.html"
+                            class="flex items-center gap-3 px-4 py-2.5 hover:bg-blue-50 text-gray-700 hover:text-myval-blue text-sm"><i
+                                class="fa-solid fa-house-chimney-window w-5"></i> Súkromné osoby / cenník</a>
+                        <a href="specialne-sluzby.html"
+                            class="flex items-center gap-3 px-4 py-2.5 hover:bg-blue-50 text-gray-700 hover:text-myval-blue text-sm"><i
+                                class="fa-solid fa-fire-extinguisher w-5"></i> Špeciálne služby</a>
+                    </div>
+                </div>
+                <a href="#contact"
+                    class="font-heading font-medium text-gray-600 hover:text-myval-blue transition-colors">Kontakt</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <a href="#contact"
+                    class="hidden md:inline-flex items-center justify-center font-heading font-semibold text-sm px-6 py-2.5 rounded-full bg-myval-blue text-white shadow-lg shadow-myval-blue/30 hover:bg-myval-dark hover:shadow-myval-dark/40 hover:-translate-y-0.5 transition-all duration-300">
+                    Napíšte nám
+                </a>
+                <button class="md:hidden text-gray-600 hover:text-myval-blue focus:outline-none" aria-label="Menu"
+                    id="mobile-menu-btn">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Slider Section -->
+        <section id="home" class="relative overflow-hidden bg-myval-navy" style="min-height: 600px;">
+
+            <!-- Slides Container -->
+            <div id="hero-slider" class="relative w-full" style="min-height: 600px;">
+
+                <!-- Slide 0: Main / Intro -->
+                <div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-100 z-10"
+                    data-slide="0">
+                    <div class="absolute inset-0">
+                        <img src="assets/hero_raccoon.jpg" alt="Mýval – práčovňa a čistiareň"
+                            class="w-full h-full object-cover object-center">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-myval-navy/75 via-myval-navy/45 to-transparent">
+                        </div>
+                    </div>
+                    <div class="relative z-10 max-w-7xl mx-auto px-4 flex items-center h-full"
+                        style="min-height: 600px;">
+                        <div class="lg:w-3/5 text-center lg:text-left py-28 lg:py-36">
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
+                                <span class="flex h-2 w-2 rounded-full bg-myval-accent"></span>
+                                <span class="text-sm font-semibold text-white tracking-wide uppercase">Viac ako 90 rokov
+                                    tradície</span>
+                            </div>
+                            <h1
+                                class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                                Prémiová starostlivosť<br>
+                                <span
+                                    class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-myval-blue">o
+                                    vašu bielizeň</span>
+                            </h1>
+                            <p class="text-lg sm:text-xl text-gray-300 mb-10 max-w-2xl mx-auto lg:mx-0">
+                                Komplexné služby prania, čistenia a prenájmu textílií pre hotely, zdravotníctvo,
+                                priemysel a náročných klientov.
+                            </p>
+                            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                                <a href="#contact"
+                                    class="w-full sm:w-auto text-center font-heading font-semibold px-8 py-3.5 rounded-lg bg-myval-blue text-white shadow-xl shadow-myval-blue/20 hover:bg-myval-dark hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2">
+                                    Mám záujem <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                                <a href="#services"
+                                    class="w-full sm:w-auto text-center font-heading font-semibold px-8 py-3.5 rounded-lg bg-white/10 text-white border border-white/20 hover:bg-white/20 backdrop-blur-sm transition-all duration-300">
+                                    Zistiť viac
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 1: Hotely -->
+                <div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0" data-slide="1">
+                    <div class="absolute inset-0">
+                        <img src="assets/myval-hotely.png" alt="Hotely a reštaurácie"
+                            class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-myval-navy/60 via-myval-navy/25 to-transparent">
+                        </div>
+                    </div>
+                    <div class="relative z-10 max-w-7xl mx-auto px-4 flex items-center h-full"
+                        style="min-height: 600px;">
+                        <div class="lg:w-1/2 text-center lg:text-left py-28 lg:py-36">
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
+                                <i class="fa-solid fa-bed text-myval-accent"></i>
+                                <span class="text-sm font-semibold text-white tracking-wide uppercase">Služby</span>
+                            </div>
+                            <h2
+                                class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                                Hotely a<br>reštaurácie
+                            </h2>
+                            <p class="text-lg text-gray-200 mb-10 max-w-xl mx-auto lg:mx-0">
+                                Pranie, žehlenie a rozvoz hotelovej bielizne s absolútnym dôrazom na žiarivú belosť a
+                                čistotu.
+                            </p>
+                            <a href="hotely-a-restauracie.html"
+                                class="inline-flex items-center gap-2 font-heading font-semibold px-8 py-3.5 rounded-lg bg-white text-myval-navy shadow-xl hover:bg-gray-100 hover:-translate-y-1 transition-all duration-300">
+                                Zistiť viac <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Zdravotníctvo -->
+                <div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0" data-slide="2">
+                    <div class="absolute inset-0">
+                        <img src="assets/myval-zdravotnictvo.png" alt="Zdravotnícke zariadenia"
+                            class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-myval-navy/60 via-myval-navy/25 to-transparent">
+                        </div>
+                    </div>
+                    <div class="relative z-10 max-w-7xl mx-auto px-4 flex items-center h-full"
+                        style="min-height: 600px;">
+                        <div class="lg:w-1/2 text-center lg:text-left py-28 lg:py-36">
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
+                                <i class="fa-solid fa-staff-snake text-myval-accent"></i>
+                                <span class="text-sm font-semibold text-white tracking-wide uppercase">Služby</span>
+                            </div>
+                            <h2
+                                class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                                Zdravotnícke<br>zariadenia
+                            </h2>
+                            <p class="text-lg text-gray-200 mb-10 max-w-xl mx-auto lg:mx-0">
+                                Komplexný hygienický režim pre nemocnice, ambulancie a domovy dôchodcov.
+                            </p>
+                            <a href="zdravotnicke-zariadenia.html"
+                                class="inline-flex items-center gap-2 font-heading font-semibold px-8 py-3.5 rounded-lg bg-white text-myval-navy shadow-xl hover:bg-gray-100 hover:-translate-y-1 transition-all duration-300">
+                                Zistiť viac <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Priemysel -->
+                <div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0" data-slide="3">
+                    <div class="absolute inset-0">
+                        <img src="assets/myval-priemysel.png" alt="Priemysel a výskum"
+                            class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-myval-navy/60 via-myval-navy/25 to-transparent">
+                        </div>
+                    </div>
+                    <div class="relative z-10 max-w-7xl mx-auto px-4 flex items-center h-full"
+                        style="min-height: 600px;">
+                        <div class="lg:w-1/2 text-center lg:text-left py-28 lg:py-36">
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
+                                <i class="fa-solid fa-industry text-myval-accent"></i>
+                                <span class="text-sm font-semibold text-white tracking-wide uppercase">Služby</span>
+                            </div>
+                            <h2
+                                class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                                Priemysel<br>a výskum
+                            </h2>
+                            <p class="text-lg text-gray-200 mb-10 max-w-xl mx-auto lg:mx-0">
+                                Pranie a chemické čistenie pracovných odevov pre ťažký priemysel, hutníctvo a
+                                laboratóriá.
+                            </p>
+                            <a href="priemysel-a-vyskum.html"
+                                class="inline-flex items-center gap-2 font-heading font-semibold px-8 py-3.5 rounded-lg bg-white text-myval-navy shadow-xl hover:bg-gray-100 hover:-translate-y-1 transition-all duration-300">
+                                Zistiť viac <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4: Súkromné osoby -->
+                <div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0" data-slide="4">
+                    <div class="absolute inset-0">
+                        <img src="assets/myval-sukromne_osoby.png" alt="Súkromné osoby"
+                            class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-myval-navy/60 via-myval-navy/25 to-transparent">
+                        </div>
+                    </div>
+                    <div class="relative z-10 max-w-7xl mx-auto px-4 flex items-center h-full"
+                        style="min-height: 600px;">
+                        <div class="lg:w-1/2 text-center lg:text-left py-28 lg:py-36">
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
+                                <i class="fa-solid fa-house-chimney-window text-myval-accent"></i>
+                                <span class="text-sm font-semibold text-white tracking-wide uppercase">Služby</span>
+                            </div>
+                            <h2
+                                class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                                Súkromné<br>osoby
+                            </h2>
+                            <p class="text-lg text-gray-200 mb-10 max-w-xl mx-auto lg:mx-0">
+                                Ušetrite čas – zverte svoje odevy do rúk odborníkov. Chemické čistenie, pranie aj
+                                opravy.
+                            </p>
+                            <a href="sukromne-osoby.html"
+                                class="inline-flex items-center gap-2 font-heading font-semibold px-8 py-3.5 rounded-lg bg-white text-myval-navy shadow-xl hover:bg-gray-100 hover:-translate-y-1 transition-all duration-300">
+                                Zistiť viac <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5: Špeciálne služby -->
+                <div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0" data-slide="5">
+                    <div class="absolute inset-0">
+                        <img src="assets/myval-specialne.png" alt="Špeciálne služby" class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-myval-navy/60 via-myval-navy/25 to-transparent">
+                        </div>
+                    </div>
+                    <div class="relative z-10 max-w-7xl mx-auto px-4 flex items-center h-full"
+                        style="min-height: 600px;">
+                        <div class="lg:w-1/2 text-center lg:text-left py-28 lg:py-36">
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
+                                <i class="fa-solid fa-fire-extinguisher text-myval-accent"></i>
+                                <span class="text-sm font-semibold text-white tracking-wide uppercase">Služby</span>
+                            </div>
+                            <h2
+                                class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                                Špeciálne<br>služby
+                            </h2>
+                            <p class="text-lg text-gray-200 mb-10 max-w-xl mx-auto lg:mx-0">
+                                Impregnácia hasičských odevov a hĺbkové tepovanie kobercov profesionálnou technológiou
+                                Miele.
+                            </p>
+                            <a href="specialne-sluzby.html"
+                                class="inline-flex items-center gap-2 font-heading font-semibold px-8 py-3.5 rounded-lg bg-white text-myval-navy shadow-xl hover:bg-gray-100 hover:-translate-y-1 transition-all duration-300">
+                                Zistiť viac <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Slider Navigation -->
+            <div class="absolute bottom-12 left-1/2 -translate-x-1/2 z-30 flex items-center gap-3">
+                <button class="hero-dot w-10 h-1.5 rounded-full bg-white transition-all duration-300 cursor-pointer"
+                    data-goto="0"></button>
+                <button
+                    class="hero-dot w-6 h-1.5 rounded-full bg-white/40 hover:bg-white/70 transition-all duration-300 cursor-pointer"
+                    data-goto="1"></button>
+                <button
+                    class="hero-dot w-6 h-1.5 rounded-full bg-white/40 hover:bg-white/70 transition-all duration-300 cursor-pointer"
+                    data-goto="2"></button>
+                <button
+                    class="hero-dot w-6 h-1.5 rounded-full bg-white/40 hover:bg-white/70 transition-all duration-300 cursor-pointer"
+                    data-goto="3"></button>
+                <button
+                    class="hero-dot w-6 h-1.5 rounded-full bg-white/40 hover:bg-white/70 transition-all duration-300 cursor-pointer"
+                    data-goto="4"></button>
+                <button
+                    class="hero-dot w-6 h-1.5 rounded-full bg-white/40 hover:bg-white/70 transition-all duration-300 cursor-pointer"
+                    data-goto="5"></button>
+            </div>
+
+            <!-- Previous / Next arrows -->
+            <button id="hero-prev"
+                class="absolute left-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm text-white hover:bg-white/25 transition-all duration-300 hidden sm:flex items-center justify-center">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button id="hero-next"
+                class="absolute right-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm text-white hover:bg-white/25 transition-all duration-300 hidden sm:flex items-center justify-center">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+            <!-- Wave divider -->
+            <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-20">
+                <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="w-full h-10 sm:h-16 lg:h-24">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C50.22,33.1,100.44,66.2,168,81.1,223.3,93.45,280.4,75.11,321.39,56.44Z"
+                        class="fill-gray-50"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Stats Block (Prečo my) overlap -->
+        <div class="max-w-6xl mx-auto px-4 relative z-30 -mt-20 mb-20 sm:-mt-24">
+            <div
+                class="bg-white rounded-2xl shadow-2xl border border-gray-100 p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 divide-y sm:divide-y-0 sm:divide-x divide-gray-100">
+
+                <div class="flex flex-col items-center text-center px-4 pt-4 sm:pt-0">
+                    <div
+                        class="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center mb-4 text-myval-blue">
+                        <i class="fa-solid fa-shield-halved text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-3xl text-gray-900 mb-1">1936</h3>
+                    <p class="text-sm text-gray-500 font-medium tracking-wide">ROK ZALOŽENIA</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center px-4 pt-4 sm:pt-0">
+                    <div
+                        class="w-16 h-16 rounded-full bg-orange-50 flex items-center justify-center mb-4 text-myval-accent">
+                        <i class="fa-solid fa-truck-fast text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-3xl text-gray-900 mb-1">Vlastný</h3>
+                    <p class="text-sm text-gray-500 font-medium tracking-wide">ROZVOZ BIELIZNE</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center px-4 pt-4 sm:pt-0">
+                    <div
+                        class="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center mb-4 text-myval-blue">
+                        <i class="fa-solid fa-hospital text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-3xl text-gray-900 mb-1">Prísne</h3>
+                    <p class="text-sm text-gray-500 font-medium tracking-wide">HYGIENICKÉ NORMY</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center px-4 pt-4 sm:pt-0">
+                    <div
+                        class="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center mb-4 text-myval-blue">
+                        <i class="fa-solid fa-leaf text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-3xl text-gray-900 mb-1">Moderné</h3>
+                    <p class="text-sm text-gray-500 font-medium tracking-wide">TECHNOLÓGIE</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <section id="services" class="py-24 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="text-center mb-16 relative z-10">
+                    <span
+                        class="inline-block py-1.5 px-4 rounded-full bg-blue-50 text-myval-blue font-semibold text-sm tracking-widest uppercase mb-4 border border-blue-100">
+                        Čo ponúkame
+                    </span>
+                    <h2 class="font-heading text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Naše Služby</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Komplexné riešenia pre starostlivosť o textílie s
+                        dôrazom na najvyššiu kvalitu a hygienu.</p>
+                </div>
+
+                <!-- Bento Grid Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                    <!-- Service 1 (Large/Featured) -->
+                    <div
+                        class="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 lg:col-span-2 lg:row-span-2 flex flex-col justify-end min-h-[400px]">
+                        <div class="absolute inset-0">
+                            <img src="assets/myval-hotely.png" alt="Hotely a reštaurácie"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent">
+                            </div>
+                        </div>
+                        <div
+                            class="relative z-10 p-8 sm:p-10 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                            <div
+                                class="w-12 h-12 rounded-2xl bg-white/20 backdrop-blur-md flex items-center justify-center mb-6 text-white border border-white/30">
+                                <i class="fa-solid fa-bed text-xl"></i>
+                            </div>
+                            <h3 class="font-heading text-3xl font-bold text-white mb-3">Hotely a reštaurácie</h3>
+                            <p
+                                class="text-gray-200 text-lg mb-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 line-clamp-2">
+                                Pranie, žehlenie a rozvoz hotelovej bielizne s absolútnym dôrazom na žiarivú belosť,
+                                mäkkosť a čistotu.
+                            </p>
+                            <a href="hotely-a-restauracie.html"
+                                class="inline-flex items-center gap-2 text-white font-semibold group-hover:text-blue-300 transition-colors">
+                                Zistiť detail <i
+                                    class="fa-solid fa-arrow-right transform group-hover:translate-x-1 transition-transform"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div
+                        class="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-xl transition-all duration-500 flex flex-col justify-end min-h-[250px] border border-gray-100">
+                        <div class="absolute inset-0">
+                            <img src="assets/myval-zdravotnictvo.png" alt="Zdravotníctvo"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80 mix-blend-multiply">
+                            <div class="absolute inset-0 bg-gradient-to-t from-myval-navy/90 to-myval-navy/20"></div>
+                        </div>
+                        <div class="relative z-10 p-6">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-blue-500/20 backdrop-blur-md flex items-center justify-center mb-4 text-blue-100 border border-blue-400/30">
+                                <i class="fa-solid fa-staff-snake"></i>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Zdravotníctvo</h3>
+                            <p class="text-gray-300 text-sm mb-4 line-clamp-2">Profesionálne ošetrenie kontaminovanej
+                                bielizne podľa najprísnejších hygienických noriem (RKI).</p>
+                            <a href="zdravotnicke-zariadenia.html"
+                                class="text-blue-300 text-sm font-semibold hover:text-white transition-colors flex items-center gap-1">Viac
+                                info <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div
+                        class="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-xl transition-all duration-500 flex flex-col justify-end min-h-[250px] border border-gray-100">
+                        <div class="absolute inset-0 bg-gray-50">
+                            <img src="assets/myval-priemysel.png" alt="Priemysel"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 mix-blend-luminosity opacity-40">
+                            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
+                        </div>
+                        <div class="relative z-10 p-6">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gray-800/40 backdrop-blur-md flex items-center justify-center mb-4 text-gray-200 border border-gray-500/30">
+                                <i class="fa-solid fa-industry"></i>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Priemysel</h3>
+                            <p class="text-gray-300 text-sm mb-4 line-clamp-2">Chemické čistenie a pranie odolných
+                                pracovných odevov pre ťažký priemysel a laboratóriá.</p>
+                            <a href="priemysel-a-vyskum.html"
+                                class="text-gray-400 text-sm font-semibold hover:text-white transition-colors flex items-center gap-1">Viac
+                                info <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div
+                        class="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-xl transition-all duration-500 flex flex-col min-h-[250px] border border-gray-100 p-6 hover:-translate-y-1">
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-orange-50 flex items-center justify-center mb-6 text-myval-accent">
+                            <i class="fa-solid fa-house-chimney-window text-xl"></i>
+                        </div>
+                        <h3
+                            class="font-heading text-xl font-bold text-gray-900 mb-3 group-hover:text-myval-blue transition-colors">
+                            Súkromné osoby</h3>
+                        <p class="text-gray-600 text-sm mb-6 flex-grow">Pranie košieľ, ošetrenie jemných oblekov a
+                            pranie nadmerného bytového textilu pre domácnosti.</p>
+                        <a href="sukromne-osoby.html"
+                            class="text-myval-blue text-sm font-semibold flex items-center gap-1">Zobraziť
+                            cenník <i
+                                class="fa-solid fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i></a>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div
+                        class="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-xl transition-all duration-500 flex flex-col min-h-[250px] border border-gray-100 p-6 hover:-translate-y-1">
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center mb-6 text-myval-blue">
+                            <i class="fa-solid fa-fire-extinguisher text-xl"></i>
+                        </div>
+                        <h3
+                            class="font-heading text-xl font-bold text-gray-900 mb-3 group-hover:text-myval-blue transition-colors">
+                            Špeciálne služby</h3>
+                        <p class="text-gray-600 text-sm mb-6 flex-grow">Špeciálna impregnácia hasičských zásahových
+                            odevov a ošetrenie náročných funkčných textílií technológiou Miele.</p>
+                        <a href="specialne-sluzby.html"
+                            class="text-myval-blue text-sm font-semibold flex items-center gap-1">Detail služby
+                            <i
+                                class="fa-solid fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i></a>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div
+                        class="group relative overflow-hidden rounded-3xl bg-myval-blue shadow-lg hover:shadow-xl shadow-myval-blue/20 transition-all duration-500 flex flex-col min-h-[250px] p-6 hover:-translate-y-1">
+                        <div class="absolute -right-10 -top-10 text-white/10">
+                            <i class="fa-solid fa-rug text-9xl"></i>
+                        </div>
+                        <div class="relative z-10 flex flex-col h-full">
+                            <div
+                                class="w-12 h-12 rounded-2xl bg-white/20 flex items-center justify-center mb-6 text-white backdrop-blur-sm border border-white/30">
+                                <i class="fa-solid fa-rug text-xl"></i>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white mb-3">Čistenie kobercov</h3>
+                            <p class="text-blue-100 text-sm mb-6 flex-grow">Hĺbkové tepovanie a pranie kobercov do
+                                posledného vlákna pre žiarivé farby a hygienickú čistotu vo vašom domove.</p>
+                            <a href="specialne-sluzby.html"
+                                class="text-white text-sm font-semibold flex items-center gap-1 hover:text-blue-200 transition-colors">Čistenie
+                                kobercov
+                                <i
+                                    class="fa-solid fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-24 bg-white relative overflow-hidden">
+            <!-- Decorative background -->
+            <div class="absolute top-0 right-0 w-1/3 h-full bg-blue-50/50 skew-x-12 transform origin-top-right -z-10">
+            </div>
+
+            <div class="max-w-7xl mx-auto px-4">
+
+                <!-- Section Header -->
+                <div class="text-center mb-16">
+                    <span
+                        class="inline-block py-1.5 px-4 rounded-full bg-blue-50 text-myval-blue font-semibold text-sm tracking-widest uppercase mb-4 border border-blue-100">
+                        Príbeh značky
+                    </span>
+                    <h2 class="font-heading text-4xl lg:text-5xl font-bold text-gray-900 mb-4">O spoločnosti MÝVAL</h2>
+                    <p class="text-lg text-gray-500 max-w-2xl mx-auto">Viac ako 90 rokov rodinnej tradície v
+                        profesionálnom praní, chemickom čistení a údržbe textílií.</p>
+                </div>
+
+                <!-- Timeline -->
+                <div class="relative">
+                    <!-- Timeline vertical line (desktop) -->
+                    <div
+                        class="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-myval-blue/20 via-myval-blue/40 to-myval-accent/20 -translate-x-1/2">
+                    </div>
+
+                    <!-- Minulosť -->
+                    <div class="relative lg:grid lg:grid-cols-2 lg:gap-16 mb-16 lg:mb-24">
+                        <div
+                            class="hidden lg:flex absolute left-1/2 top-8 -translate-x-1/2 w-14 h-14 rounded-full bg-white border-4 border-myval-blue items-center justify-center text-myval-blue shadow-lg shadow-myval-blue/20 z-10">
+                            <i class="fa-solid fa-clock-rotate-left text-lg"></i>
+                        </div>
+                        <div class="lg:pr-16 lg:text-right">
+                            <div
+                                class="bg-white rounded-3xl p-8 border border-gray-100 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                <div class="flex items-center gap-3 mb-4 lg:justify-end">
+                                    <div
+                                        class="lg:hidden w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-myval-blue">
+                                        <i class="fa-solid fa-clock-rotate-left"></i>
+                                    </div>
+                                    <span class="text-sm font-bold text-myval-blue tracking-widest uppercase">1932 –
+                                        1991</span>
+                                </div>
+                                <h3 class="font-heading text-2xl font-bold text-gray-900 mb-4">Minulosť</h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">Spoločnosť Mýval s.r.o. nadväzuje na
+                                    dlhoročnú rodinnú tradíciu v oblasti chemického čistenia a údržby textílií. Jej
+                                    zakladateľmi boli <strong>Pavol a Ružena Škrovinovci</strong>, ktorí firmu založili
+                                    v roku <strong>1932</strong> pod názvom <em>Chémia</em>.</p>
+                                <p class="text-gray-600 leading-relaxed mb-4">Podnik sa rýchlo etabloval a poskytoval
+                                    služby chemického čistenia, farbenia a prania textílií obyvateľom i podnikom v
+                                    širokom okolí Brezna, ktoré bolo v tom období okresným mestom.</p>
+                                <p class="text-gray-600 leading-relaxed mb-4">Rozvoj úspešnej rodinnej firmy prerušil
+                                    rok <strong>1952</strong>, keď došlo k jej znárodneniu a celý majetok vrátane budov
+                                    prešiel do vlastníctva Komunálnych služieb mesta Brezna.</p>
+                                <p class="text-gray-600 leading-relaxed">Po politických zmenách sa v roku
+                                    <strong>1991</strong> podarilo Milanovi Škrovinovi, synovi zakladateľa, spolu s
+                                    manželkou Ľudmilou obnoviť činnosť rodinnej tradície. Spolu založili firmu <em>Mýval
+                                        perie – čistí</em>, ktorá bola v roku 2007 transformovaná na spoločnosť s
+                                    ručením obmedzeným pod súčasným názvom <strong>Mýval s.r.o.</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex items-center">
+                            <div
+                                class="w-full rounded-3xl bg-gradient-to-br from-myval-navy to-myval-dark p-8 text-white relative overflow-hidden">
+                                <div class="absolute -right-8 -bottom-8 text-white/5"><i
+                                        class="fa-solid fa-landmark text-[120px]"></i></div>
+                                <div class="relative z-10">
+                                    <div class="font-heading font-black text-7xl mb-2">1932</div>
+                                    <div class="text-blue-200 text-lg font-semibold">Založenie firmy Chémia</div>
+                                    <div class="text-blue-300/70 text-sm mt-2">Pavol a Ružena Škrovinovci · Brezno</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Prítomnosť -->
+                    <div class="relative lg:grid lg:grid-cols-2 lg:gap-16 mb-16 lg:mb-24">
+                        <div
+                            class="hidden lg:flex absolute left-1/2 top-8 -translate-x-1/2 w-14 h-14 rounded-full bg-white border-4 border-myval-accent items-center justify-center text-myval-accent shadow-lg shadow-myval-accent/20 z-10">
+                            <i class="fa-solid fa-building text-lg"></i>
+                        </div>
+                        <div class="hidden lg:flex items-center justify-end">
+                            <div class="grid grid-cols-2 gap-4 w-full">
+                                <div class="bg-blue-50 rounded-2xl p-6 text-center border border-blue-100">
+                                    <i class="fa-solid fa-shirt text-myval-blue text-2xl mb-3"></i>
+                                    <div class="font-heading font-bold text-gray-900">Práčovňa</div>
+                                    <div class="text-xs text-gray-500 mt-1">Hotelová a zdravotnícka bielizeň</div>
+                                </div>
+                                <div class="bg-blue-50 rounded-2xl p-6 text-center border border-blue-100">
+                                    <i class="fa-solid fa-spray-can-sparkles text-myval-blue text-2xl mb-3"></i>
+                                    <div class="font-heading font-bold text-gray-900">Čistiareň</div>
+                                    <div class="text-xs text-gray-500 mt-1">Priemyselné a súkromné odevy</div>
+                                </div>
+                                <div class="bg-orange-50 rounded-2xl p-6 text-center border border-orange-100">
+                                    <i class="fa-solid fa-scissors text-myval-accent text-2xl mb-3"></i>
+                                    <div class="font-heading font-bold text-gray-900">Krajčírska dielňa</div>
+                                    <div class="text-xs text-gray-500 mt-1">Opravy a úpravy textílií</div>
+                                </div>
+                                <div class="bg-green-50 rounded-2xl p-6 text-center border border-green-100">
+                                    <i class="fa-solid fa-hand-holding-heart text-green-600 text-2xl mb-3"></i>
+                                    <div class="font-heading font-bold text-gray-900">Chránená dielňa</div>
+                                    <div class="text-xs text-gray-500 mt-1">Od roku 2011</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:pl-16">
+                            <div
+                                class="bg-white rounded-3xl p-8 border border-gray-100 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <div
+                                        class="lg:hidden w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center text-myval-accent">
+                                        <i class="fa-solid fa-building"></i>
+                                    </div>
+                                    <span class="text-sm font-bold text-myval-accent tracking-widest uppercase">2008 –
+                                        dnes</span>
+                                </div>
+                                <h3 class="font-heading text-2xl font-bold text-gray-900 mb-4">Prítomnosť</h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">K rodinnej tradícii sa v tretej generácii
+                                    pripojila <strong>Katarína Škrovinová</strong>, vnučka zakladateľa, ktorá sa stala
+                                    jedným z konateľov spoločnosti.</p>
+                                <p class="text-gray-600 leading-relaxed mb-4">Obdobie rokov <strong>2008 – 2015</strong>
+                                    prinieslo výraznú modernizáciu – uskutočnila sa plynofikácia kotolne, rozsiahla
+                                    obnova technologického vybavenia a celková modernizácia prevádzky, čo umožnilo
+                                    rozšírenie pôsobnosti firmy a zvýšenie počtu zamestnancov.</p>
+                                <p class="text-gray-600 leading-relaxed mb-6">V roku <strong>2011</strong> bola zriadená
+                                    chránená dielňa, vďaka ktorej spoločnosť vytvorila pracovné príležitosti aj pre
+                                    osoby so zdravotným postihnutím.</p>
+                                <h4 class="font-heading font-bold text-gray-900 mb-3">Dnešné rozdelenie prevádzky:</h4>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-start gap-2"><i
+                                            class="fa-solid fa-check text-myval-blue mt-1 text-sm"></i>
+                                        <strong>Práčovňa</strong> – ošetrovanie hotelovej a zdravotníckej bielizne
+                                    </li>
+                                    <li class="flex items-start gap-2"><i
+                                            class="fa-solid fa-check text-myval-blue mt-1 text-sm"></i>
+                                        <strong>Čistiareň</strong> – čistenie pracovných odevov a odevov súkromných
+                                        zákazníkov
+                                    </li>
+                                    <li class="flex items-start gap-2"><i
+                                            class="fa-solid fa-check text-myval-blue mt-1 text-sm"></i>
+                                        <strong>Krajčírska dielňa</strong> – opravy a úpravy pracovných odevov a
+                                        textílií
+                                    </li>
+                                    <li class="flex items-start gap-2"><i
+                                            class="fa-solid fa-check text-myval-blue mt-1 text-sm"></i> <strong>Čistenie
+                                            kobercov</strong> – odborná údržba kobercových povrchov</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Budúcnosť -->
+                    <div class="relative lg:grid lg:grid-cols-2 lg:gap-16 mb-16 lg:mb-24">
+                        <div
+                            class="hidden lg:flex absolute left-1/2 top-8 -translate-x-1/2 w-14 h-14 rounded-full bg-white border-4 border-green-500 items-center justify-center text-green-500 shadow-lg shadow-green-500/20 z-10">
+                            <i class="fa-regular fa-lightbulb text-lg"></i>
+                        </div>
+                        <div class="lg:pr-16 lg:text-right">
+                            <div
+                                class="bg-white rounded-3xl p-8 border border-gray-100 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                <div class="flex items-center gap-3 mb-4 lg:justify-end">
+                                    <div
+                                        class="lg:hidden w-10 h-10 rounded-full bg-green-50 flex items-center justify-center text-green-600">
+                                        <i class="fa-regular fa-lightbulb"></i>
+                                    </div>
+                                    <span
+                                        class="text-sm font-bold text-green-600 tracking-widest uppercase">Vízia</span>
+                                </div>
+                                <h3 class="font-heading text-2xl font-bold text-gray-900 mb-4">Budúcnosť</h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">Pokračujeme v systematickej modernizácii a
+                                    inovácii technológií, ktoré posúvajú naše služby na vyššiu úroveň. Realizujeme
+                                    stavebné úpravy príjmu odevov a modernizáciu priestorov práčovne, aby sme dosiahli
+                                    ešte efektívnejšie procesy a vyšší komfort pre zákazníkov.</p>
+                                <p class="text-gray-600 leading-relaxed">V rámci rozvoja odboru sme v našich priestoroch
+                                    zriadili <strong>školiace stredisko pre SPaČ SR</strong>, kde sa pod jeho záštitou
+                                    uskutočňujú odborné školenia a workshopy. Našou trvalou ambíciou je udržiavať
+                                    najvyššiu úroveň kvality služieb a zabezpečovať, aby každý zákazník odchádzal
+                                    spokojný s výsledkom našej práce.</p>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex items-center">
+                            <div
+                                class="w-full rounded-3xl bg-gradient-to-br from-green-50 to-blue-50 p-8 border border-green-100 relative overflow-hidden">
+                                <div class="absolute -right-4 -bottom-4 text-green-100"><i
+                                        class="fa-solid fa-seedling text-[100px]"></i></div>
+                                <div class="relative z-10 space-y-4">
+                                    <div class="flex items-center gap-3">
+                                        <div
+                                            class="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-myval-blue shadow-sm">
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </div>
+                                        <div>
+                                            <div class="font-heading font-bold text-gray-900">Školiace stredisko</div>
+                                            <div class="text-xs text-gray-500">SPaČ SR – odborné školenia</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center gap-3">
+                                        <div
+                                            class="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-myval-blue shadow-sm">
+                                            <i class="fa-solid fa-hammer"></i>
+                                        </div>
+                                        <div>
+                                            <div class="font-heading font-bold text-gray-900">Modernizácia prevádzky
+                                            </div>
+                                            <div class="text-xs text-gray-500">Stavebné úpravy a nové technológie</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center gap-3">
+                                        <div
+                                            class="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-green-600 shadow-sm">
+                                            <i class="fa-solid fa-leaf"></i>
+                                        </div>
+                                        <div>
+                                            <div class="font-heading font-bold text-gray-900">Ekologické postupy</div>
+                                            <div class="text-xs text-gray-500">Šetrne k životnému prostrediu</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifikáty -->
+                <div class="mt-8">
+                    <div class="text-center mb-12">
+                        <span
+                            class="inline-block py-1.5 px-4 rounded-full bg-amber-50 text-myval-accent font-semibold text-sm tracking-widest uppercase mb-4 border border-amber-100">
+                            Kvalita overená
+                        </span>
+                        <h3 class="font-heading text-3xl lg:text-4xl font-bold text-gray-900">Certifikáty a potvrdenia
+                        </h3>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                        <div
+                            class="group bg-white rounded-3xl border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                            <div class="bg-gray-50 p-6 flex items-center justify-center">
+                                <img src="assets/certifikat-myval-1.jpg" alt="Certifikát MÝVAL s.r.o."
+                                    class="max-h-80 object-contain rounded-lg shadow-sm group-hover:scale-105 transition-transform duration-500">
+                            </div>
+                            <div class="p-5 text-center">
+                                <h4 class="font-heading font-bold text-gray-900 mb-1">Certifikát MÝVAL s.r.o.</h4>
+                                <p class="text-sm text-gray-500">Špecializované práčovňové systémy pre hotely a
+                                    ubytovacie zariadenia</p>
+                            </div>
+                        </div>
+                        <div
+                            class="group bg-white rounded-3xl border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                            <div class="bg-gray-50 p-6 flex items-center justify-center">
+                                <img src="assets/certifikat-myval-2.jpg" alt="Potvrdenie AGROMEPA / Miele centrum"
+                                    class="max-h-80 object-contain rounded-lg shadow-sm group-hover:scale-105 transition-transform duration-500">
+                            </div>
+                            <div class="p-5 text-center">
+                                <h4 class="font-heading font-bold text-gray-900 mb-1">Potvrdenie AGROMEPA / Miele</h4>
+                                <p class="text-sm text-gray-500">Oprávnenie na údržbu hasičských zásahových odevov
+                                    technológiou Miele</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-24 bg-gray-50 relative">
+            <div class="max-w-7xl mx-auto px-4">
+
+                <div class="text-center mb-16 relative z-10">
+                    <span
+                        class="inline-block py-1.5 px-4 rounded-full bg-blue-50 text-myval-blue font-semibold text-sm tracking-widest uppercase mb-4 border border-blue-100">
+                        Sme tu pre vás
+                    </span>
+                    <h2 class="font-heading text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Kontaktujte nás</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Vyberte si oddelenie, ktoré práve potrebujete.
+                        Sme pripravení vyriešiť vaše požiadavky na čistotu.</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+
+                    <!-- Form Side (Left) -->
+                    <div class="lg:col-span-7 bg-white rounded-3xl p-8 sm:p-10 shadow-xl border border-gray-100">
+                        <h3 class="font-heading text-2xl font-bold text-gray-900 mb-6">Napíšte nám správu</h3>
+                        <form action="#" class="space-y-6">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Vaše meno /
+                                        Firma</label>
+                                    <input type="text" id="name"
+                                        class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:bg-white focus:border-myval-blue focus:ring-2 focus:ring-myval-blue/20 outline-none transition-all placeholder-gray-400"
+                                        placeholder="Jozef Mak">
+                                </div>
+                                <div>
+                                    <label for="email"
+                                        class="block text-sm font-medium text-gray-700 mb-2">E-mail</label>
+                                    <input type="email" id="email"
+                                        class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:bg-white focus:border-myval-blue focus:ring-2 focus:ring-myval-blue/20 outline-none transition-all placeholder-gray-400"
+                                        placeholder="jozef@firma.sk">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="service" class="block text-sm font-medium text-gray-700 mb-2">O akú službu
+                                    máte záujem?</label>
+                                <select id="service"
+                                    class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:bg-white focus:border-myval-blue focus:ring-2 focus:ring-myval-blue/20 outline-none transition-all appearance-none text-gray-600">
+                                    <option>Všeobecná otázka / Súkromná osoba</option>
+                                    <option>Hotely a reštaurácie</option>
+                                    <option>Zdravotnícke zariadenia</option>
+                                    <option>Pracovné odevy (Priemysel)</option>
+                                    <option>Čistenie kobercov</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Správa</label>
+                                <textarea id="message" rows="4"
+                                    class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:bg-white focus:border-myval-blue focus:ring-2 focus:ring-myval-blue/20 outline-none transition-all placeholder-gray-400 resize-none"
+                                    placeholder="Ako vám môžeme pomôcť?"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-myval-blue text-white font-heading font-semibold hover:bg-myval-dark shadow-lg shadow-myval-blue/30 hover:shadow-myval-dark/40 transition-all hover:-translate-y-0.5">
+                                Odoslať správu
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Details Side (Right) -->
+                    <div class="lg:col-span-5 space-y-6">
+
+                        <!-- Main Address Card -->
+                        <div class="bg-myval-navy text-white rounded-3xl p-8 shadow-xl relative overflow-hidden">
+                            <div class="absolute -right-8 -top-8 text-white/5">
+                                <i class="fa-solid fa-map-location-dot text-9xl"></i>
+                            </div>
+                            <div class="relative z-10">
+                                <h3 class="font-heading text-2xl font-bold mb-4">Centrála</h3>
+                                <div class="flex gap-4 items-start mb-6">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-lg">Mýval s.r.o.</p>
+                                        <p class="text-blue-100">Rázusova 13<br>977 01 Brezno</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-4 items-center">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                    <a href="mailto:myval@myval.sk"
+                                        class="text-lg font-semibold hover:text-myval-accent transition-colors">myval@myval.sk</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mini Cards Grid -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <!-- B2C -->
+                            <div
+                                class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                                <h4
+                                    class="font-heading font-bold text-gray-900 mb-1 text-sm text-myval-blue uppercase tracking-wide">
+                                    Súkromné osoby</h4>
+                                <a href="tel:+421486113161"
+                                    class="block font-bold text-gray-900 hover:text-myval-blue transition-colors mb-2">+421
+                                    48 611 3161</a>
+                                <div
+                                    class="text-xs text-gray-500 font-medium bg-gray-50 inline-block px-2 py-1 rounded">
+                                    Po-Pi: 7:00 - 16:00</div>
+                            </div>
+
+                            <!-- B2B Hotels -->
+                            <div
+                                class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                                <h4
+                                    class="font-heading font-bold text-gray-900 mb-1 text-sm text-myval-blue uppercase tracking-wide">
+                                    Hotely a Nemocnice</h4>
+                                <a href="tel:+421915899966"
+                                    class="block font-bold text-gray-900 hover:text-myval-blue transition-colors mb-2">+421
+                                    915 899 966</a>
+                                <div class="text-xs text-gray-500 font-medium">Expedícia</div>
+                            </div>
+
+                            <!-- B2B Industry -->
+                            <div
+                                class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                                <h4
+                                    class="font-heading font-bold text-gray-900 mb-1 text-sm text-myval-blue uppercase tracking-wide">
+                                    Pracovné odevy</h4>
+                                <a href="tel:+421905068615"
+                                    class="block font-bold text-gray-900 hover:text-myval-blue transition-colors mb-2">+421
+                                    905 068 615</a>
+                                <div class="text-xs text-gray-500 font-medium">Expedícia</div>
+                            </div>
+
+                            <!-- Logistics -->
+                            <div
+                                class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                                <h4
+                                    class="font-heading font-bold text-gray-900 mb-1 text-sm text-myval-accent uppercase tracking-wide">
+                                    <i class="fa-solid fa-truck-fast mr-1"></i> Logistika
+                                </h4>
+                                <a href="tel:+421905590864"
+                                    class="block font-bold text-gray-900 hover:text-myval-blue transition-colors">+421
+                                    905 590 864</a>
+                                <a href="tel:+421917625500"
+                                    class="block font-bold text-gray-900 hover:text-myval-blue transition-colors">+421
+                                    917 625 500</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 pt-16 pb-8 border-t-4 border-myval-blue">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+
+                <!-- Brand -->
+                <div class="lg:col-span-1">
+                    <a href="#" class="inline-block mb-6">
+                        <span class="font-heading font-black text-2xl text-white tracking-widest">MÝVAL</span>
+                    </a>
+                    <p class="text-gray-400 text-sm mb-6 leading-relaxed">
+                        Kvalita a tradícia od roku 1936. Profesionálne služby prania a čistenia pre firemných aj
+                        súkromných zákazníkov s dôrazom na ekológiu.
+                    </p>
+                    <div class="flex gap-3">
+                        <a href="https://www.facebook.com/M%C3%BDval-sro-111510672293630/" target="_blank"
+                            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-myval-blue transition-colors">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Fast Links -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6 flex items-center gap-2">Rýchle
+                        odkazy<span class="h-px bg-myval-blue flex-grow ml-2 opacity-50"></span></h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="#home" class="hover:text-white hover:pl-2 transition-all block">Domov</a></li>
+                        <li><a href="#about" class="hover:text-white hover:pl-2 transition-all block">O spoločnosti</a>
+                        </li>
+                        <li><a href="#services" class="hover:text-white hover:pl-2 transition-all block">Naše služby</a>
+                        </li>
+                        <li><a href="#contact" class="hover:text-white hover:pl-2 transition-all block">Kontakt a
+                                cenník</a></li>
+                    </ul>
+                </div>
+
+                <!-- Info -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6 flex items-center gap-2">Užitočné
+                        info<span class="h-px bg-myval-blue flex-grow ml-2 opacity-50"></span></h4>
+                    <ul class="space-y-4 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-clock text-myval-blue mt-1"></i>
+                            <div>
+                                <strong class="block text-white">Otváracie hodiny</strong>
+                                <span>Po - Pi: 7:00 - 16:00<br>Víkendy: Zatvorené</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-file-contract text-myval-blue mt-1"></i>
+                            <div>
+                                <strong class="block text-white">Fakturácia</strong>
+                                <span>IČO: 36 793 540<br>IČ DPH: SK2022402019</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6 flex items-center gap-2">Kontakt<span
+                            class="h-px bg-myval-blue flex-grow ml-2 opacity-50"></span></h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="tel:+421486113161"
+                                class="hover:text-white transition-colors flex items-center gap-2"><i
+                                    class="fa-solid fa-phone text-xs text-gray-500"></i> +421 (0)48 611 3161</a></li>
+                        <li><a href="mailto:myval@myval.sk"
+                                class="hover:text-white transition-colors flex items-center gap-2"><i
+                                    class="fa-solid fa-envelope text-xs text-gray-500"></i> myval@myval.sk</a></li>
+                        <li class="pt-2">
+                            <span class="block text-white font-semibold mb-1">Adresa</span>
+                            Rázusova 13<br>977 01 Brezno
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div
+                class="pt-8 border-t border-white/10 text-center flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+                <p>&copy; 2026 MÝVAL s.r.o. Všetky práva vyhradené.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="hover:text-white transition-colors">Ochrana osobných údajov</a>
+                    <a href="#" class="hover:text-white transition-colors">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent-banner" class="hidden fixed bottom-0 inset-x-0 z-[100] p-4 sm:p-6">
+        <div
+            class="max-w-4xl mx-auto bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-200 p-6 sm:p-8">
+            <div class="flex flex-col sm:flex-row items-start gap-5">
+                <!-- Icon -->
+                <div
+                    class="flex-shrink-0 w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center text-myval-blue">
+                    <i class="fa-solid fa-cookie-bite text-2xl"></i>
+                </div>
+                <!-- Text -->
+                <div class="flex-grow">
+                    <h3 class="font-heading font-bold text-gray-900 text-lg mb-2">Používame cookies 🍪</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Táto webová stránka používa cookies na zlepšenie vášho zážitku z prehliadania, analýzu
+                        návštevnosti a personalizáciu obsahu. Nevyhnutné cookies sú potrebné na fungovanie stránky.
+                        Voliteľné cookies nám pomáhajú lepšie porozumieť vašim potrebám.
+                    </p>
+
+                    <!-- Settings Panel (hidden by default) -->
+                    <div id="cookie-settings-panel"
+                        class="hidden mb-4 p-4 bg-gray-50 rounded-xl border border-gray-100 space-y-3">
+                        <label class="flex items-center gap-3 cursor-not-allowed opacity-70">
+                            <input type="checkbox" checked disabled
+                                class="w-4 h-4 rounded border-gray-300 text-myval-blue focus:ring-myval-blue">
+                            <div>
+                                <span class="text-sm font-semibold text-gray-900">Nevyhnutné</span>
+                                <p class="text-xs text-gray-500">Potrebné na základné fungovanie stránky.</p>
+                            </div>
+                        </label>
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <input type="checkbox" id="cookie-analytics"
+                                class="w-4 h-4 rounded border-gray-300 text-myval-blue focus:ring-myval-blue">
+                            <div>
+                                <span class="text-sm font-semibold text-gray-900">Analytické</span>
+                                <p class="text-xs text-gray-500">Pomáhajú nám pochopiť, ako návštevníci používajú
+                                    stránku.</p>
+                            </div>
+                        </label>
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <input type="checkbox" id="cookie-marketing"
+                                class="w-4 h-4 rounded border-gray-300 text-myval-blue focus:ring-myval-blue">
+                            <div>
+                                <span class="text-sm font-semibold text-gray-900">Marketingové</span>
+                                <p class="text-xs text-gray-500">Používajú sa na zobrazovanie relevantných reklám.</p>
+                            </div>
+                        </label>
+                        <button id="cookie-save-settings"
+                            class="mt-2 px-5 py-2 rounded-lg bg-myval-blue text-white text-sm font-heading font-semibold hover:bg-myval-dark transition-colors">
+                            Uložiť nastavenia
+                        </button>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-wrap gap-3">
+                        <button id="cookie-accept"
+                            class="px-6 py-2.5 rounded-xl bg-myval-blue text-white font-heading font-semibold text-sm shadow-lg shadow-myval-blue/25 hover:bg-myval-dark hover:-translate-y-0.5 transition-all duration-300">
+                            Prijať všetky
+                        </button>
+                        <button id="cookie-decline"
+                            class="px-6 py-2.5 rounded-xl bg-gray-100 text-gray-700 font-heading font-semibold text-sm hover:bg-gray-200 transition-all duration-300">
+                            Iba nevyhnutné
+                        </button>
+                        <button id="cookie-settings"
+                            class="px-6 py-2.5 rounded-xl bg-transparent text-gray-500 font-heading font-medium text-sm hover:text-myval-blue hover:bg-blue-50 transition-all duration-300 flex items-center gap-1">
+                            <i class="fa-solid fa-sliders text-xs"></i> Nastavenia
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts (Optional functionality like mobile menu toggle) -->
+    <script src="script.js"></script>
+</body>
+
+</html>
