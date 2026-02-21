@@ -255,6 +255,104 @@
         </div>
     </header>
 
+    <!-- Mobile Navigation Menu -->
+    <div id="mobile-menu" class="fixed inset-0 z-[60] pointer-events-none">
+        <!-- Backdrop -->
+        <div id="mobile-menu-backdrop"
+            class="absolute inset-0 bg-black/60 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        <!-- Panel -->
+        <div id="mobile-menu-panel"
+            class="absolute top-0 right-0 h-full w-[85%] max-w-sm bg-white shadow-2xl translate-x-full transition-transform duration-300 ease-out overflow-y-auto">
+            <!-- Close Button -->
+            <div class="flex items-center justify-between px-6 py-5 border-b border-gray-100">
+                <span class="font-heading font-black text-xl text-myval-navy tracking-widest">MÝVAL</span>
+                <button id="mobile-menu-close"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors text-gray-500">
+                    <i class="fa-solid fa-xmark text-xl"></i>
+                </button>
+            </div>
+            <!-- Nav Links -->
+            <nav class="px-6 py-4 space-y-1">
+                <a href="#home"
+                    class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-blue-50 hover:text-myval-blue transition-colors font-heading font-medium"
+                    data-i18n="common.nav.home">Domov</a>
+                <a href="#about"
+                    class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-blue-50 hover:text-myval-blue transition-colors font-heading font-medium"
+                    data-i18n="common.nav.about">O nás</a>
+                <!-- Services with sub-links -->
+                <div>
+                    <button id="mobile-services-toggle"
+                        class="w-full flex items-center justify-between px-4 py-3 rounded-xl text-gray-700 hover:bg-blue-50 hover:text-myval-blue transition-colors font-heading font-medium">
+                        <span data-i18n="common.nav.services">Služby</span>
+                        <i class="fa-solid fa-chevron-down text-xs transition-transform duration-200"
+                            id="mobile-services-chevron"></i>
+                    </button>
+                    <div id="mobile-services-sub" class="hidden pl-4 space-y-1 mt-1">
+                        <a href="hotely-a-restauracie.html"
+                            class="flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm text-gray-600 hover:bg-blue-50 hover:text-myval-blue transition-colors">
+                            <i class="fa-solid fa-bed w-5 text-myval-blue/60"></i> <span
+                                data-i18n="common.dropdown.hotels">Hotely a reštaurácie</span>
+                        </a>
+                        <a href="zdravotnicke-zariadenia.html"
+                            class="flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm text-gray-600 hover:bg-blue-50 hover:text-myval-blue transition-colors">
+                            <i class="fa-solid fa-staff-snake w-5 text-myval-blue/60"></i> <span
+                                data-i18n="common.dropdown.healthcare">Zdravotnícke zariadenia</span>
+                        </a>
+                        <a href="priemysel-a-vyskum.html"
+                            class="flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm text-gray-600 hover:bg-blue-50 hover:text-myval-blue transition-colors">
+                            <i class="fa-solid fa-industry w-5 text-myval-blue/60"></i> <span
+                                data-i18n="common.dropdown.industry">Priemysel a výskum</span>
+                        </a>
+                        <a href="sukromne-osoby.html"
+                            class="flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm text-gray-600 hover:bg-blue-50 hover:text-myval-blue transition-colors">
+                            <i class="fa-solid fa-house-chimney-window w-5 text-myval-blue/60"></i> <span
+                                data-i18n="common.dropdown.private">Súkromné osoby</span>
+                        </a>
+                        <a href="specialne-sluzby.html"
+                            class="flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm text-gray-600 hover:bg-blue-50 hover:text-myval-blue transition-colors">
+                            <i class="fa-solid fa-fire-extinguisher w-5 text-myval-blue/60"></i> <span
+                                data-i18n="common.dropdown.special">Špeciálne služby</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="#contact"
+                    class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-blue-50 hover:text-myval-blue transition-colors font-heading font-medium"
+                    data-i18n="common.nav.contact">Kontakt</a>
+            </nav>
+            <!-- Divider -->
+            <div class="mx-6 border-t border-gray-100"></div>
+            <!-- Language options -->
+            <div class="px-6 py-4">
+                <p class="text-xs text-gray-400 uppercase font-semibold tracking-wider mb-3">Jazyk</p>
+                <div class="flex flex-wrap gap-2">
+                    <button onclick="setLanguage('sk')"
+                        class="mobile-lang-btn px-4 py-2 rounded-lg text-sm border border-gray-200 hover:border-myval-blue hover:text-myval-blue transition-colors"
+                        data-lang-mobile="sk">🇸🇰 SK</button>
+                    <button onclick="setLanguage('en')"
+                        class="mobile-lang-btn px-4 py-2 rounded-lg text-sm border border-gray-200 hover:border-myval-blue hover:text-myval-blue transition-colors"
+                        data-lang-mobile="en">🇬🇧 EN</button>
+                    <button onclick="setLanguage('de')"
+                        class="mobile-lang-btn px-4 py-2 rounded-lg text-sm border border-gray-200 hover:border-myval-blue hover:text-myval-blue transition-colors"
+                        data-lang-mobile="de">🇩🇪 DE</button>
+                    <button onclick="setLanguage('cs')"
+                        class="mobile-lang-btn px-4 py-2 rounded-lg text-sm border border-gray-200 hover:border-myval-blue hover:text-myval-blue transition-colors"
+                        data-lang-mobile="cs">🇨🇿 CS</button>
+                    <button onclick="setLanguage('pl')"
+                        class="mobile-lang-btn px-4 py-2 rounded-lg text-sm border border-gray-200 hover:border-myval-blue hover:text-myval-blue transition-colors"
+                        data-lang-mobile="pl">🇵🇱 PL</button>
+                </div>
+            </div>
+            <!-- CTA Button -->
+            <div class="px-6 pb-8">
+                <a href="#contact"
+                    class="mobile-nav-link w-full flex items-center justify-center gap-2 font-heading font-semibold text-sm px-6 py-3.5 rounded-xl bg-myval-blue text-white shadow-lg shadow-myval-blue/30 hover:bg-myval-dark transition-all"
+                    data-i18n="common.nav.writeUs">
+                    Napíšte nám
+                </a>
+            </div>
+        </div>
+    </div>
+
     <main>
         <!-- Hero Slider Section -->
         <section id="home" class="relative overflow-hidden bg-myval-navy" style="min-height: 600px;">
