@@ -1,0 +1,6 @@
+# robots.txt pre www.myval.sk
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.myval.sk/sitemap.xml
