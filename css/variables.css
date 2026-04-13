@@ -1,0 +1,78 @@
+/* ============================================
+   IDEAMACHINE — DESIGN TOKENS
+   ============================================ */
+
+:root {
+  /* Colors */
+  --color-bg-primary: #111111;
+  --color-bg-secondary: #000000;
+  --color-bg-card: #1a1a1a;
+  --color-bg-light: #f5f5f5;
+  --color-bg-white: #ffffff;
+  --color-bg-input: #e8e8e8;
+  --color-accent: #f7d100;
+  --color-accent-hover: #d4b600;
+  --color-accent-subtle: rgba(247, 209, 0, 0.08);
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #c8c8c8;
+  --color-text-tertiary: #6a6a6a;
+  --color-text-dark: #111111;
+  --color-text-dark-secondary: #444444;
+  --color-line: rgba(247, 209, 0, 0.3);
+  --color-border-subtle: rgba(255, 255, 255, 0.06);
+
+  /* Typography */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Rubik', sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+  /* Font Sizes — Large & Impactful */
+  --fs-display: clamp(3.5rem, 7vw, 6.5rem);
+  --fs-hero: clamp(3rem, 6vw, 5.5rem);
+  --fs-h1: clamp(2.4rem, 4.5vw, 4.2rem);
+  --fs-h2: clamp(1.8rem, 3.5vw, 3rem);
+  --fs-h3: clamp(1.3rem, 2vw, 1.8rem);
+  --fs-body: clamp(1rem, 1.2vw, 1.15rem);
+  --fs-body-lg: clamp(1.05rem, 1.4vw, 1.25rem);
+  --fs-small: 0.875rem;
+  --fs-nav: 0.9rem;
+  --fs-label: 0.75rem;
+
+  /* Spacing — generous */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 7rem;
+  --space-2xl: 10rem;
+  --space-3xl: 14rem;
+
+  /* Layout */
+  --container-max: 1240px;
+  --container-padding: 2.5rem;
+  --header-height: 80px;
+
+  /* Breakpoints (for reference, used in media queries) */
+  /* --bp-mobile: 375px */
+  /* --bp-tablet: 768px */
+  /* --bp-desktop-sm: 1024px */
+  /* --bp-desktop: 1440px */
+
+  /* Transitions */
+  --transition-fast: 200ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 600ms ease-out;
+  --transition-entrance: 700ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-spring: 800ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Z-index */
+  --z-preloader: 9999;
+  --z-header: 1000;
+  --z-mobile-menu: 900;
+  --z-back-top: 800;
+  --z-particles: 1;
+  --z-content: 10;
+}

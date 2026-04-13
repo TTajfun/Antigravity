@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktujte nás — idea machine</title>
+    <meta name="description" content="Máte otázky alebo záujem o spoluprácu? Kontaktujte nás.">
+    <link rel="canonical" href="https://www.ideamachine.sk/kontaktujte-nas/">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+
+<body>
+    <div class="preloader" id="preloader"><span class="preloader__logo">idea machine</span>
+        <div class="preloader__dot"></div>
+    </div>
+    <header class="header" id="header"><a href="/" class="header__logo">idea machine</a>
+        <nav class="header__nav"><a href="/" class="header__nav-link">home</a>
+            <div class="header__dropdown"><a href="#" class="header__nav-link">služby</a>
+                <div class="header__dropdown-menu"><a href="/riadenie-projektov/" class="header__dropdown-link">riadenie
+                        projektov</a><a href="/internetove-riesenia/" class="header__dropdown-link">internetové
+                        riešenia</a><a href="/grafika/" class="header__dropdown-link">grafika</a><a href="/marketing/"
+                        class="header__dropdown-link">marketing</a><a href="/aplikacie/"
+                        class="header__dropdown-link">aplikácie</a></div>
+            </div><a href="/preco-my/" class="header__nav-link">prečo si vybrať nás</a><a href="/kontakt/"
+                class="header__nav-link active">ozvite sa nám</a>
+        </nav>
+        <div class="header__lang"><button class="header__lang-btn">SK ▾</button>
+            <div class="header__lang-dropdown"><button class="header__lang-option active" data-lang="sk">🇸🇰
+                    Slovenčina</button><button class="header__lang-option" data-lang="en">🇬🇧 English</button><button
+                    class="header__lang-option" data-lang="de">🇩🇪 Deutsch</button></div>
+        </div><a href="https://www.linkedin.com/company/ideamachine-sk" target="_blank" rel="noopener"
+            class="header__social" aria-label="LinkedIn"><svg viewBox="0 0 24 24">
+                <path
+                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+            </svg></a><button class="hamburger" aria-label="Menu"><span class="hamburger__line"></span><span
+                class="hamburger__line"></span><span class="hamburger__line"></span></button>
+    </header>
+    <div class="mobile-menu" id="mobile-menu"><a href="/" class="mobile-menu__link">home</a><a href="#"
+            class="mobile-menu__link mobile-menu__sub-toggle">služby ▾</a>
+        <div class="mobile-menu__sub"><a href="/riadenie-projektov/" class="mobile-menu__sub-link">riadenie
+                projektov</a><a href="/internetove-riesenia/" class="mobile-menu__sub-link">internetové riešenia</a><a
+                href="/grafika/" class="mobile-menu__sub-link">grafika</a><a href="/marketing/"
+                class="mobile-menu__sub-link">marketing</a><a href="/aplikacie/"
+                class="mobile-menu__sub-link">aplikácie</a></div><a href="/preco-my/" class="mobile-menu__link">prečo si
+            vybrať nás</a><a href="/kontakt/" class="mobile-menu__link active">ozvite sa nám</a>
+    </div>
+
+    <main>
+        <section class="section contact">
+            <div class="container">
+                <div class="contact__grid">
+                    <div class="contact__info animate-on-scroll">
+                        <h1 class="contact__title" data-i18n="kontakt.title">spojte sa<br>s nami<span
+                                class="yellow-dot">.</span></h1>
+                        <span class="yellow-underline"></span>
+                        <a href="tel:+421907129715" class="contact__phone" data-i18n="kontakt.phone">+421 907 129
+                            715</a>
+                        <p class="contact__phone-label" data-i18n="kontakt.phoneLabel">telefón</p>
+                        <a href="mailto:info@ideamachine.sk" class="contact__email"
+                            data-i18n="kontakt.email">info@ideamachine.sk</a>
+                        <p class="contact__email-label" data-i18n="kontakt.emailLabel">mail</p>
+                    </div>
+                    <div class="contact__form-wrapper animate-on-scroll stagger-2">
+                        <p class="contact__form-intro" data-i18n="kontakt.formIntro">Alebo nám zanechajte správu a
+                            zistite ako vám vieme pomôcť s vašim biznisom</p>
+                        <form class="contact__form" id="contact-form" action="/api/contact" method="POST">
+                            <input type="text" class="contact__input" name="name" data-i18n="kontakt.namePlaceholder"
+                                placeholder="Meno" required id="contact-name">
+                            <input type="email" class="contact__input" name="email" data-i18n="kontakt.emailPlaceholder"
+                                placeholder="E-mail" required id="contact-email">
+                            <textarea class="contact__textarea" name="message" data-i18n="kontakt.messagePlaceholder"
+                                placeholder="Správa" required id="contact-message"></textarea>
+                            <button type="submit" class="contact__submit" data-i18n="kontakt.submit"
+                                id="contact-submit">Poslať</button>
+                            <p class="contact__status" id="contact-status"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h4 class="footer__title">kontakt</h4>
+                    <p class="footer__text">Tel: <a href="tel:+421907129715" class="footer__link">+421 907 129
+                            715</a><br>mail: <a href="mailto:info@ideamachine.sk"
+                            class="footer__link">info@ideamachine.sk</a></p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">fakturačné údaje</h4>
+                    <p class="footer__text">idea machine s.r.o.<br>Rázusová 13<br>977 01 Brezno<br>Slovensko<br><br>IČO:
+                        52322998<br>DIČ: 2121002180</p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">office</h4>
+                    <p class="footer__text">Oskara Čepana 23a<br>917 08 Trnava<br>Slovensko</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="back-to-top" aria-label="Späť nahor"><svg viewBox="0 0 24 24">
+            <path d="M7 14l5-5 5 5z" />
+        </svg></button>
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/animations.js"></script>
+    <script type="module" src="/js/i18n.js"></script>
+    <script type="module" src="/js/contact.js"></script>
+</body>
+
+</html>

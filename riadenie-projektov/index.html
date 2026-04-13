@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesionálne riadenie projektov — idea machine</title>
+    <meta name="description"
+        content="Zabezpečujeme profesionálne riadenie projektov od plánovania až po úspešnú realizáciu.">
+    <meta property="og:title" content="Riadenie projektov — idea machine">
+    <meta property="og:description" content="Profesionálne riadenie projektov od plánovania po realizáciu.">
+    <link rel="canonical" href="https://www.ideamachine.sk/riadenie-projektov/">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/service.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <span class="preloader__logo">idea machine</span>
+        <div class="preloader__dot"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <a href="/" class="header__logo">idea machine</a>
+        <nav class="header__nav">
+            <a href="/" class="header__nav-link" data-i18n="nav.home">home</a>
+            <div class="header__dropdown">
+                <a href="#" class="header__nav-link active" data-i18n="nav.services">služby</a>
+                <div class="header__dropdown-menu">
+                    <a href="/riadenie-projektov/" class="header__dropdown-link active"
+                        data-i18n="nav.riadenie">riadenie projektov</a>
+                    <a href="/internetove-riesenia/" class="header__dropdown-link" data-i18n="nav.internet">internetové
+                        riešenia</a>
+                    <a href="/grafika/" class="header__dropdown-link" data-i18n="nav.grafika">grafika</a>
+                    <a href="/marketing/" class="header__dropdown-link" data-i18n="nav.marketing">marketing</a>
+                    <a href="/aplikacie/" class="header__dropdown-link" data-i18n="nav.aplikacie">aplikácie</a>
+                </div>
+            </div>
+            <a href="/preco-my/" class="header__nav-link" data-i18n="nav.whyUs">prečo si vybrať nás</a>
+            <a href="/kontakt/" class="header__nav-link" data-i18n="nav.contact">ozvite sa nám</a>
+        </nav>
+        <div class="header__lang">
+            <button class="header__lang-btn">SK ▾</button>
+            <div class="header__lang-dropdown">
+                <button class="header__lang-option active" data-lang="sk">🇸🇰 Slovenčina</button>
+                <button class="header__lang-option" data-lang="cs">🇨🇿 Čeština</button>
+                <button class="header__lang-option" data-lang="en">🇬🇧 English</button>
+                <button class="header__lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                <button class="header__lang-option" data-lang="hu">🇭🇺 Magyar</button>
+                <button class="header__lang-option" data-lang="pl">🇵🇱 Polski</button>
+                <button class="header__lang-option" data-lang="fr">🇫🇷 Français</button>
+                <button class="header__lang-option" data-lang="es">🇪🇸 Español</button>
+                <button class="header__lang-option" data-lang="it">🇮🇹 Italiano</button>
+                <button class="header__lang-option" data-lang="uk">🇺🇦 Українська</button>
+            </div>
+        </div>
+        <a href="https://www.linkedin.com/company/ideamachine-sk" target="_blank" rel="noopener" class="header__social"
+            aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24">
+                <path
+                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+            </svg>
+        </a>
+        <button class="hamburger" aria-label="Menu">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+        </button>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="/" class="mobile-menu__link" data-i18n="nav.home">home</a>
+        <a href="#" class="mobile-menu__link mobile-menu__sub-toggle" data-i18n="nav.services">služby ▾</a>
+        <div class="mobile-menu__sub">
+            <a href="/riadenie-projektov/" class="mobile-menu__sub-link" data-i18n="nav.riadenie">riadenie projektov</a>
+            <a href="/internetove-riesenia/" class="mobile-menu__sub-link" data-i18n="nav.internet">internetové
+                riešenia</a>
+            <a href="/grafika/" class="mobile-menu__sub-link" data-i18n="nav.grafika">grafika</a>
+            <a href="/marketing/" class="mobile-menu__sub-link" data-i18n="nav.marketing">marketing</a>
+            <a href="/aplikacie/" class="mobile-menu__sub-link" data-i18n="nav.aplikacie">aplikácie</a>
+        </div>
+        <a href="/preco-my/" class="mobile-menu__link" data-i18n="nav.whyUs">prečo si vybrať nás</a>
+        <a href="/kontakt/" class="mobile-menu__link" data-i18n="nav.contact">ozvite sa nám</a>
+    </div>
+
+    <main>
+        <!-- Hero -->
+        <section class="service-hero">
+            <div class="parallax-element parallax-element--1" data-parallax-factor="0.3">
+                <svg viewBox="0 0 200 200" fill="none">
+                    <rect x="20" y="20" width="160" height="160" rx="10" stroke="#f7d100" stroke-width="2" />
+                    <circle cx="100" cy="100" r="40" stroke="#f7d100" stroke-width="2" />
+                </svg>
+            </div>
+            <div class="parallax-element parallax-element--2" data-parallax-factor="0.5">
+                <svg viewBox="0 0 200 200" fill="none">
+                    <polygon points="100,10 190,190 10,190" stroke="#f7d100" stroke-width="2" />
+                </svg>
+            </div>
+            <div class="container service-hero__content">
+                <h1 class="service-hero__title animate-on-scroll" data-i18n="riadenie.title">riadenie projektov<span
+                        class="yellow-dot">.</span></h1>
+                <p class="service-hero__subtitle animate-on-scroll stagger-2">Od nápadu po realizáciu — riadime projekty
+                    od A po Z.</p>
+                <span class="yellow-underline"></span>
+            </div>
+        </section>
+
+        <!-- Process Steps -->
+        <section class="section section--dark">
+            <div class="container process-steps">
+                <div class="process-step animate-on-scroll stagger-1">
+                    <div class="process-step__number"></div>
+                    <div class="process-step__content">
+                        <h2 class="process-step__title" data-i18n="riadenie.step1Title">podrobne sa zoznámime s
+                            projektom<span class="yellow-dot">.</span></h2>
+                        <p class="process-step__text" data-i18n="riadenie.step1Text">Základom je pochopiť čo je Vaším
+                            cieľom, čo chcete projektom dosiahnuť. Chceme získať Váš pohľad na projekt, poznať Vašu
+                            motiváciu, aby sme mohli prevziať všetky činnosti na projekte tak, akoby ste ho realizovali
+                            Vy sami.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll stagger-2">
+                    <div class="process-step__number"></div>
+                    <div class="process-step__content">
+                        <h2 class="process-step__title" data-i18n="riadenie.step2Title">dodáme nápady<span
+                                class="yellow-dot">.</span></h2>
+                        <p class="process-step__text" data-i18n="riadenie.step2Text">Po dôkladnom preskúmaní všetkých
+                            podmienok prichádza časť, kedy náš tím kreatívcov pridá Vášmu projektu nápad, ktorý Vás bude
+                            odlišovať od konkurencie.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll stagger-3">
+                    <div class="process-step__number"></div>
+                    <div class="process-step__content">
+                        <h2 class="process-step__title" data-i18n="riadenie.step3Title">navrhneme riešenie a vypracujeme
+                            projekt<span class="yellow-dot">.</span></h2>
+                        <p class="process-step__text" data-i18n="riadenie.step3Text">Kvalitné plánovanie je polovica
+                            práce. Dôkladne preskúmame Vaše možnosti a navrhneme najlepšie riešenie.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll stagger-4">
+                    <div class="process-step__number"></div>
+                    <div class="process-step__content">
+                        <h2 class="process-step__title" data-i18n="riadenie.step4Title">nájdeme dodávateľov a vyberieme
+                            tých najlepších<span class="yellow-dot">.</span></h2>
+                        <p class="process-step__text" data-i18n="riadenie.step4Text">Správny dodávateľ je kľúčom k
+                            hladkému priebehu. Na základe našich vnútorných ratingov Vám odporučíme najlepších.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll stagger-5">
+                    <div class="process-step__number"></div>
+                    <div class="process-step__content">
+                        <h2 class="process-step__title" data-i18n="riadenie.step5Title">zrealizujeme a odovzdáme
+                            projekt<span class="yellow-dot">.</span></h2>
+                        <p class="process-step__text" data-i18n="riadenie.step5Text">Realizácia projektu je kompletne
+                            pod naším vedením. Vy ako klient dostávate pravidelný report.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll stagger-6">
+                    <div class="process-step__number"></div>
+                    <div class="process-step__content">
+                        <h2 class="process-step__title" data-i18n="riadenie.step6Title">takže sa môžete pohodlne oprieť
+                            a všetko nechať na nás<span class="yellow-dot">.</span></h2>
+                        <p class="process-step__text" data-i18n="riadenie.step6Text">Sme skupina kreatívcov, ktorí sa
+                            rozhodli využiť svoje rozsiahle skúsenosti pri práci na projektoch čo nás bavia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h4 class="footer__title" data-i18n="footer.contactTitle">kontakt</h4>
+                    <p class="footer__text">Tel: <a href="tel:+421907129715" class="footer__link">+421 907 129
+                            715</a><br>mail: <a href="mailto:info@ideamachine.sk"
+                            class="footer__link">info@ideamachine.sk</a></p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title" data-i18n="footer.billingTitle">fakturačné údaje</h4>
+                    <p class="footer__text" data-i18n="footer.billingText">idea machine s.r.o.<br>Rázusová 13<br>977 01
+                        Brezno<br>Slovensko<br><br>IČO: 52322998<br>DIČ: 2121002180</p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title" data-i18n="footer.officeTitle">office</h4>
+                    <p class="footer__text" data-i18n="footer.officeText">Oskara Čepana 23a<br>917 08
+                        Trnava<br>Slovensko</p>
+                </div>
+            </div>
+            <p class="footer__about" data-i18n="footer.about">Sme skupina kreatívcov, ktorí sa rozhodli využiť svoje
+                rozsiahle skúsenosti pri práci na projektoch čo nás bavia, aby sme vytvorili niečo výnimočné pre Vás —
+                našich klientov.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Späť nahor">
+        <svg viewBox="0 0 24 24">
+            <path d="M7 14l5-5 5 5z" />
+        </svg>
+    </button>
+
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/animations.js"></script>
+    <script type="module" src="/js/i18n.js"></script>
+</body>
+
+</html>

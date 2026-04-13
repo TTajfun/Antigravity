@@ -1,0 +1,160 @@
+{
+    "nav": {
+        "home": "home",
+        "services": "služby",
+        "riadenie": "riadenie projektov",
+        "internet": "internetové riešenia",
+        "grafika": "grafika",
+        "marketing": "marketing",
+        "aplikacie": "aplikácie",
+        "whyUs": "prečo si vybrať nás",
+        "contact": "ozvite sa nám"
+    },
+    "home": {
+        "heroTitle": "kto sme<span class=\"yellow-dot\">.</span>",
+        "heroText1": "Sme skupina kreatívcov, ktorí sa rozhodli využiť svoje rozsiahle skúsenosti pri práci na projektoch čo nás bavia, aby sme vytvorili niečo výnimočné pre Vás — našich klientov.",
+        "heroText2": "Sme nový druh spoločnosti. Spojením renomovaných odborníkov vo svojich oboroch, s mnohoročnými skúsenosťami z viacerých pozícií, sme schopní ponúknuť expertné, profesionálne služby za zlomok nákladov iných rovnako talentovaných agentúr.",
+        "heroText3": "To je to, čo robíme a sme na to právom hrdí.",
+        "servicesTitle": "dodáme nápady<span class=\"yellow-dot\">.</span>",
+        "aboutTitle": "prečo si vybrať nás<span class=\"yellow-dot\">.</span>",
+        "aboutText": "Môžeme to urobiť, pretože sme menší, sústredenejší a vybudovali sme firmu, ktorá sa vyžíva v hľadaní nových, efektívnejších spôsobov ako robiť veci. Žiadny projekt pre nás nie je príliš veľký alebo príliš malý."
+    },
+    "riadenie": {
+        "title": "riadenie projektov<span class=\"yellow-dot\">.</span>",
+        "step1Title": "podrobne sa zoznámime s projektom<span class=\"yellow-dot\">.</span>",
+        "step1Text": "Základom je pochopiť čo je Vaším cieľom, čo chcete projektom dosiahnuť. Chceme získať Váš pohľad na projekt, poznať Vašu motiváciu, aby sme mohli prevziať všetky činnosti na projekte tak, akoby ste ho realizovali Vy sami.",
+        "step2Title": "dodáme nápady<span class=\"yellow-dot\">.</span>",
+        "step2Text": "Po dôkladnom preskúmaní všetkých podmienok prichádza časť, kedy náš tím kreatívcov pridá Vášmu projektu nápad, ktorý Vás bude odlišovať od konkurencie. Nápad je totiž to, čo rozhoduje o úspechu, alebo neúspechu projektu.",
+        "step3Title": "navrhneme riešenie a vypracujeme projekt<span class=\"yellow-dot\">.</span>",
+        "step3Text": "Kvalitné plánovanie je polovica práce. Dôkladne preskúmame Vaše možnosti a navrhneme najlepšie riešenie. Po schválení pripravíme plán projektu.",
+        "step4Title": "nájdeme dodávateľov a vyberieme tých najlepších<span class=\"yellow-dot\">.</span>",
+        "step4Text": "Správny dodávateľ je kľúčom k hladkému priebehu. Na základe našich vnútorných ratingov Vám odporučíme najlepších pre daný projekt a vy si vyberiete.",
+        "step5Title": "zrealizujeme a odovzdáme projekt<span class=\"yellow-dot\">.</span>",
+        "step5Text": "Realizácia projektu je kompletne pod naším vedením. Vy ako klient dostávate pravidelný report a vývoj projektu môžete sledovať online.",
+        "step6Title": "takže sa môžete pohodlne oprieť a všetko nechať na nás<span class=\"yellow-dot\">.</span>",
+        "step6Text": "Sme skupina kreatívcov, ktorí sa rozhodli využiť svoje rozsiahle skúsenosti pri práci na projektoch čo nás bavia, aby sme vytvorili niečo výnimočné pre Vás — našich klientov."
+    },
+    "internet": {
+        "title": "internetové riešenia<span class=\"yellow-dot\">.</span>",
+        "sec1Title": "webové aplikácie<span class=\"yellow-dot\">.</span>",
+        "sec1Text": "V digitálnom svete je webová stránka vašou vizitkou, predajným nástrojom a prvým dojmom v jednom. Tvoríme funkčné, estetické a používateľsky prívetivé weby, ktoré nielen dobre vyzerajú, ale aj efektívne pracujú pre váš biznis.",
+        "sec2Title": "search engine optimization (SEO)<span class=\"yellow-dot\">.</span>",
+        "sec2Text": "Ak vás zákazníci nenájdu na prvej stránke vyhľadávača, akoby ste ani neexistovali. Postaráme sa o to, aby vaša stránka získala lepšiu viditeľnosť, vyšší organický dosah a kvalitnejšiu návštevnosť.",
+        "sec3Title": "údržba webu<span class=\"yellow-dot\">.</span>",
+        "sec3Text": "Gratulujeme, váš web je online! Ale tým to nekončí. Ak chcete, aby zostal relevantný, bezpečný a atraktívny pre návštevníkov, je potrebné sa oň pravidelne starať."
+    },
+    "grafika": {
+        "title": "grafika<span class=\"yellow-dot\">.</span>",
+        "sec1Title": "webový dizajn<span class=\"yellow-dot\">.</span>",
+        "sec1Text": "Veľa ľudí podceňuje dôležitosť kvalitného a zaujímavého prevedenia webovej prezentácie. Vizuálna stránka je prvý vnem, ktorý Váš zákazník zaregistruje.",
+        "sec2Title": "printový dizajn<span class=\"yellow-dot\">.</span>",
+        "sec2Text": "Každý materiál, ktorým prezentujete svoju firmu alebo aktivity, slúži na propagáciu. Ak chcete skutočne zaujať, nestačí sa spoliehať len na obsah — dôležitý je aj vizuálny dojem.",
+        "sec3Title": "corporate identity<span class=\"yellow-dot\">.</span>",
+        "sec3Text": "Corporate Identity, ako súbor pravidiel a vizuálnych štýlov, zaručuje konzistentnú prezentáciu, ktorá uľahčuje identifikáciu a pomáha zákazníkom stotožniť sa so značkou alebo produktom.",
+        "sec4Title": "obalový dizajn<span class=\"yellow-dot\">.</span>",
+        "sec4Text": "Je známe, že obal predáva — veľká časť zákazníkov sa rozhoduje podľa vizuálneho vzhľadu produktu a nie podľa informácií."
+    },
+    "marketing": {
+        "title": "marketing<span class=\"yellow-dot\">.</span>",
+        "sec1Title": "poznajte trh, pochopte zákazníkov, predbehnite konkurenciu<span class=\"yellow-dot\">.</span>",
+        "sec1Text": "Úspešný marketing sa nezačína intuíciou, ale dátami. Zameriavame sa na dôkladnú analýzu trhu a prieskum zákazníckeho správania, aby vaše rozhodnutia stáli na pevných základoch.",
+        "sec2Title": "jasný plán, silná značka, merateľné výsledky<span class=\"yellow-dot\">.</span>",
+        "sec2Text": "Bez dobrej stratégie je marketing len náhodným pokusom. Tvoríme komplexné marketingové stratégie a plány, ktoré dávajú vašej značke jasný smer.",
+        "sec3Title": "silná identita, zapamätateľný dojem, lojálni zákazníci<span class=\"yellow-dot\">.</span>",
+        "sec3Text": "Značka nie je len logo — je to príbeh, emócia a skúsenosť, ktorú si zákazníci spájajú s vašou firmou. Vytvárame silné a konzistentné brand identity.",
+        "sec4Title": "online viditeľnosť, efektívna reklama, rastúce výsledky<span class=\"yellow-dot\">.</span>",
+        "sec4Text": "V digitálnom svete nestačí byť len prítomný — musíte byť vidieť. Tvoríme komplexné digitálne marketingové stratégie.",
+        "sec5Title": "silná reputácia, pozitívny imidž, dôvera verejnosti<span class=\"yellow-dot\">.</span>",
+        "sec5Text": "Dôvera zákazníkov a verejnosti je kľúčovým faktorom úspechu každej značky. Budujeme a riadime strategickú komunikáciu, ktorá posilňuje vašu reputáciu."
+    },
+    "aplikacie": {
+        "title": "aplikácie<span class=\"yellow-dot\">.</span>",
+        "sec1Title": "android aplikácie<span class=\"yellow-dot\">.</span>",
+        "sec1Text": "Android aplikácie posúvajú váš biznis na novú úroveň. Naše aplikácie sú intuitívne, výkonné a optimalizované pre všetky Android zariadenia.",
+        "sec2Title": "iOS aplikácie<span class=\"yellow-dot\">.</span>",
+        "sec2Text": "iOS aplikácie posilňujú vašu značku a prinášajú hodnotu vašim zákazníkom. Naše riešenia sú optimalizované pre všetky zariadenia od Apple."
+    },
+    "preco": {
+        "title": "prečo si vybrať nás<span class=\"yellow-dot\">.</span>",
+        "r1Title": "sme etickí<span class=\"yellow-dot\">.</span>",
+        "r1Text": "Riadením etického a poctivého biznisu udržiavame skvelé vzťahy, ktoré nám priniesli mnoho odporúčaní dokazujúcich že sme tá správna firma na spoluprácu.",
+        "r2Title": "najímame len kvalifikovaných a skúsených jednotlivcov<span class=\"yellow-dot\">.</span>",
+        "r2Text": "Naši ľudia sú, na základe našich predchádzajúcich skúseností s nimi, kvalifikovaní a viac ako vhodní na spoluprácu.",
+        "r3Title": "nikdy nesľubujeme to, čo nemôžeme dodať<span class=\"yellow-dot\">.</span>",
+        "r3Text": "Keď sme presvedčení že niečo z akéhokoľvek dôvodu nevieme urobiť, povieme Vám to.",
+        "r4Title": "náš manažment je spojený s projektmi v každej fáze<span class=\"yellow-dot\">.</span>",
+        "r4Text": "Náš manažment je veľmi kvalifikovaný a skúsený vo viacerých technológiách a projektom plne rozumie.",
+        "r5Title": "sme flexibilní<span class=\"yellow-dot\">.</span>",
+        "r5Text": "Ak sa budeme musieť rýchlo prispôsobiť požiadavkám klienta, urobíme to.",
+        "r6Title": "nie sme technologicky špecifickí<span class=\"yellow-dot\">.</span>",
+        "r6Text": "Vzhľadom k našim rozsiahlym skúsenostiam sme schopní zhodnotiť prednosti každého projektu a navrhnúť tie najvhodnejšie platformy a technológie.",
+        "r7Title": "vždy robíme niečo naviac<span class=\"yellow-dot\">.</span>",
+        "r7Text": "Váš úspech považujeme za náš úspech, preto budeme robiť všetko čo môžeme, aby sa Váš projekt stal ziskový.",
+        "r8Title": "budujeme dlhodobé vzťahy<span class=\"yellow-dot\">.</span>",
+        "r8Text": "Niektorí naši klienti sú s nami od chvíle, kedy sme začali a pokračujú v spolupráci až doteraz.",
+        "r9Title": "kladieme dôraz na komunikáciu<span class=\"yellow-dot\">.</span>",
+        "r9Text": "Naši klienti sú informovaní o každej fáze projektu a prítomní všetkým kľúčovým rozhodnutiam.",
+        "r10Title": "pracujeme s veľkými a aj malými spoločnosťami<span class=\"yellow-dot\">.</span>",
+        "r10Text": "Bez ohľadu na veľkosť Vašej firmy alebo projektu, všetci naši klienti sú pre nás dôležití.",
+        "r11Title": "máme skúsenosti v mnohých odvetviach<span class=\"yellow-dot\">.</span>",
+        "r11Text": "Naša práca zahŕňa IT, módu, hudbu, investovanie, stavebníctvo, financie, služby predaja a ďalšie.",
+        "r12Title": "sme zameraní 100% na kvalitu<span class=\"yellow-dot\">.</span>",
+        "r12Text": "Sledujeme a vyhodnocujeme úplne všetko – našich zamestnancov, naše výstupy, náš skvelý dizajn, nápadité kampane."
+    },
+    "kontakt": {
+        "title": "spojte sa s nami<span class=\"yellow-dot\">.</span>",
+        "phone": "+421 907 129 715",
+        "phoneLabel": "telefón",
+        "email": "info@ideamachine.sk",
+        "emailLabel": "mail",
+        "formIntro": "Alebo nám zanechajte správu a zistite ako vám vieme pomôcť s vašim biznisom",
+        "namePlaceholder": "Meno",
+        "emailPlaceholder": "E-mail",
+        "messagePlaceholder": "Správa",
+        "submit": "Poslať",
+        "successMsg": "Správa bola úspešne odoslaná!",
+        "errorMsg": "Nastala chyba. Skúste to prosím znova."
+    },
+    "footer": {
+        "contactTitle": "kontakt",
+        "billingTitle": "fakturačné údaje",
+        "billingText": "idea machine s.r.o.<br>Rázusová 13<br>977 01 Brezno<br>Slovensko<br><br>IČO: 52322998<br>DIČ: 2121002180",
+        "officeTitle": "office",
+        "officeText": "Oskara Čepana 23a<br>917 08 Trnava<br>Slovensko",
+        "about": "Sme skupina kreatívcov, ktorí sa rozhodli využiť svoje rozsiahle skúsenosti pri práci na projektoch čo nás bavia, aby sme vytvorili niečo výnimočné pre Vás — našich klientov."
+    },
+    "meta": {
+        "home": {
+            "title": "idea machine — Weby, marketing, branding & digitálne inovácie",
+            "description": "idea machine je kreatívne digitálne štúdio, ktoré tvorí moderné weby, efektívne marketingové stratégie, silný branding a výkonné aplikácie."
+        },
+        "riadenie": {
+            "title": "Profesionálne riadenie projektov — idea machine",
+            "description": "Zabezpečujeme profesionálne riadenie projektov od plánovania až po úspešnú realizáciu."
+        },
+        "internet": {
+            "title": "Tvorba webu, SEO optimalizácia & údržba stránok — idea machine",
+            "description": "Ponúkame profesionálnu tvorbu webových stránok, efektívnu SEO optimalizáciu a kompletnú údržbu webu."
+        },
+        "grafika": {
+            "title": "Kreatívna grafika & dizajn — idea machine",
+            "description": "Tvoríme profesionálny grafický dizajn na mieru — od loga a vizuálnej identity až po webovú a reklamnú grafiku."
+        },
+        "marketing": {
+            "title": "Marketing, stratégia & branding — idea machine",
+            "description": "Pomôžeme vám s efektívnym marketingom, tvorbou stratégie a budovaním silného brandingu."
+        },
+        "aplikacie": {
+            "title": "Vývoj aplikácií na mieru — idea machine",
+            "description": "Vytvárame moderné webové a mobilné aplikácie na mieru, ktoré sú rýchle, bezpečné a používateľsky prívetivé."
+        },
+        "preco": {
+            "title": "Prečo si vybrať idea machine?",
+            "description": "Digitálne štúdio, ktoré spája kreativitu, technológie a stratégiu, aby prinieslo merateľné výsledky."
+        },
+        "kontakt": {
+            "title": "Kontaktujte nás — idea machine",
+            "description": "Máte otázky alebo záujem o spoluprácu? Kontaktujte nás a spoločne vytvoríme riešenia na mieru."
+        }
+    }
+}

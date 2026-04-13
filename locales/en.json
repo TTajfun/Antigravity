@@ -1,0 +1,50 @@
+{
+    "nav": {
+        "home": "home",
+        "services": "services",
+        "riadenie": "project management",
+        "internet": "web solutions",
+        "grafika": "graphic design",
+        "marketing": "marketing",
+        "aplikacie": "applications",
+        "whyUs": "why choose us",
+        "contact": "contact us"
+    },
+    "home": {
+        "heroTitle": "who we are<span class=\"yellow-dot\">.</span>",
+        "heroText1": "We are a group of creatives who decided to use our extensive experience working on projects we love, to create something exceptional for You — our clients.",
+        "heroText2": "We are a new kind of company. By combining renowned experts in their fields with years of experience from multiple positions, we can offer expert, professional services at a fraction of the cost of equally talented agencies.",
+        "heroText3": "That's what we do and we're rightfully proud of it.",
+        "servicesTitle": "we deliver ideas<span class=\"yellow-dot\">.</span>",
+        "aboutTitle": "why choose us<span class=\"yellow-dot\">.</span>",
+        "aboutText": "We can do it because we are smaller, more focused and we built a company that thrives on finding new, more efficient ways to do things. No project is too big or too small for us."
+    },
+    "kontakt": {
+        "title": "get in touch<span class=\"yellow-dot\">.</span>",
+        "phone": "+421 907 129 715",
+        "phoneLabel": "phone",
+        "email": "info@ideamachine.sk",
+        "emailLabel": "email",
+        "formIntro": "Or leave us a message and find out how we can help with your business",
+        "namePlaceholder": "Name",
+        "emailPlaceholder": "E-mail",
+        "messagePlaceholder": "Message",
+        "submit": "Send",
+        "successMsg": "Message sent successfully!",
+        "errorMsg": "An error occurred. Please try again."
+    },
+    "footer": {
+        "contactTitle": "contact",
+        "billingTitle": "billing details",
+        "billingText": "idea machine s.r.o.<br>Rázusová 13<br>977 01 Brezno<br>Slovakia<br><br>IČO: 52322998<br>DIČ: 2121002180",
+        "officeTitle": "office",
+        "officeText": "Oskara Čepana 23a<br>917 08 Trnava<br>Slovakia",
+        "about": "We are a group of creatives who decided to use our extensive experience working on projects we love, to create something exceptional for You — our clients."
+    },
+    "meta": {
+        "home": {
+            "title": "idea machine — Websites, marketing, branding & digital innovation",
+            "description": "idea machine is a creative digital studio that builds modern websites, effective marketing strategies, strong branding and powerful applications."
+        }
+    }
+}

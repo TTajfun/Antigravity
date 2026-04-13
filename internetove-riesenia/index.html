@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tvorba webu, SEO optimalizácia & údržba — idea machine</title>
+    <meta name="description"
+        content="Ponúkame profesionálnu tvorbu webových stránok, efektívnu SEO optimalizáciu a kompletnú údržbu webu.">
+    <link rel="canonical" href="https://www.ideamachine.sk/internetove-riesenia/">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/service.css">
+</head>
+
+<body>
+    <div class="preloader" id="preloader"><span class="preloader__logo">idea machine</span>
+        <div class="preloader__dot"></div>
+    </div>
+    <header class="header" id="header">
+        <a href="/" class="header__logo">idea machine</a>
+        <nav class="header__nav">
+            <a href="/" class="header__nav-link" data-i18n="nav.home">home</a>
+            <div class="header__dropdown">
+                <a href="#" class="header__nav-link active" data-i18n="nav.services">služby</a>
+                <div class="header__dropdown-menu">
+                    <a href="/riadenie-projektov/" class="header__dropdown-link" data-i18n="nav.riadenie">riadenie
+                        projektov</a>
+                    <a href="/internetove-riesenia/" class="header__dropdown-link active"
+                        data-i18n="nav.internet">internetové riešenia</a>
+                    <a href="/grafika/" class="header__dropdown-link" data-i18n="nav.grafika">grafika</a>
+                    <a href="/marketing/" class="header__dropdown-link" data-i18n="nav.marketing">marketing</a>
+                    <a href="/aplikacie/" class="header__dropdown-link" data-i18n="nav.aplikacie">aplikácie</a>
+                </div>
+            </div>
+            <a href="/preco-my/" class="header__nav-link" data-i18n="nav.whyUs">prečo si vybrať nás</a>
+            <a href="/kontakt/" class="header__nav-link" data-i18n="nav.contact">ozvite sa nám</a>
+        </nav>
+        <div class="header__lang"><button class="header__lang-btn">SK ▾</button>
+            <div class="header__lang-dropdown"><button class="header__lang-option active" data-lang="sk">🇸🇰
+                    Slovenčina</button><button class="header__lang-option" data-lang="cs">🇨🇿 Čeština</button><button
+                    class="header__lang-option" data-lang="en">🇬🇧 English</button><button class="header__lang-option"
+                    data-lang="de">🇩🇪 Deutsch</button><button class="header__lang-option" data-lang="hu">🇭🇺
+                    Magyar</button><button class="header__lang-option" data-lang="pl">🇵🇱 Polski</button><button
+                    class="header__lang-option" data-lang="fr">🇫🇷 Français</button><button class="header__lang-option"
+                    data-lang="es">🇪🇸 Español</button><button class="header__lang-option" data-lang="it">🇮🇹
+                    Italiano</button><button class="header__lang-option" data-lang="uk">🇺🇦 Українська</button></div>
+        </div>
+        <a href="https://www.linkedin.com/company/ideamachine-sk" target="_blank" rel="noopener" class="header__social"
+            aria-label="LinkedIn"><svg viewBox="0 0 24 24">
+                <path
+                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+            </svg></a>
+        <button class="hamburger" aria-label="Menu"><span class="hamburger__line"></span><span
+                class="hamburger__line"></span><span class="hamburger__line"></span></button>
+    </header>
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="/" class="mobile-menu__link" data-i18n="nav.home">home</a>
+        <a href="#" class="mobile-menu__link mobile-menu__sub-toggle" data-i18n="nav.services">služby ▾</a>
+        <div class="mobile-menu__sub"><a href="/riadenie-projektov/" class="mobile-menu__sub-link">riadenie
+                projektov</a><a href="/internetove-riesenia/" class="mobile-menu__sub-link">internetové riešenia</a><a
+                href="/grafika/" class="mobile-menu__sub-link">grafika</a><a href="/marketing/"
+                class="mobile-menu__sub-link">marketing</a><a href="/aplikacie/"
+                class="mobile-menu__sub-link">aplikácie</a></div>
+        <a href="/preco-my/" class="mobile-menu__link" data-i18n="nav.whyUs">prečo si vybrať nás</a>
+        <a href="/kontakt/" class="mobile-menu__link" data-i18n="nav.contact">ozvite sa nám</a>
+    </div>
+
+    <main>
+        <section class="service-hero">
+            <div class="parallax-element parallax-element--1" data-parallax-factor="0.3">
+                <svg viewBox="0 0 200 200" fill="none">
+                    <rect x="30" y="30" width="140" height="100" rx="8" stroke="#f7d100" stroke-width="2" />
+                    <line x1="30" y1="60" x2="170" y2="60" stroke="#f7d100" stroke-width="1" />
+                    <circle cx="50" cy="45" r="5" stroke="#f7d100" stroke-width="1.5" />
+                    <circle cx="70" cy="45" r="5" stroke="#f7d100" stroke-width="1.5" />
+                </svg>
+            </div>
+            <div class="container service-hero__content">
+                <h1 class="service-hero__title animate-on-scroll" data-i18n="internet.title">internetové riešenia<span
+                        class="yellow-dot">.</span></h1>
+                <p class="service-hero__subtitle animate-on-scroll stagger-2">Vaša webová stránka je prvý dojem,
+                    predajný nástroj a vizitka v jednom.</p>
+                <span class="yellow-underline"></span>
+            </div>
+        </section>
+
+        <section class="section section--dark service-section">
+            <div class="container">
+                <div class="split">
+                    <div class="split__media animate-slide-left">
+                        <img src="/assets/images/service-internet.png" alt="Webové aplikácie" loading="lazy">
+                    </div>
+                    <div class="split__content animate-slide-right">
+                        <span class="split__label">01</span>
+                        <h2 class="split__title" data-i18n="internet.sec1Title">webové aplikácie<span
+                                class="yellow-dot">.</span></h2>
+                        <p class="split__text" data-i18n="internet.sec1Text">V digitálnom svete je webová stránka vašou
+                            vizitkou, predajným nástrojom a prvým dojmom v jednom. Tvoríme funkčné, estetické a
+                            používateľsky prívetivé weby, ktoré nielen dobre vyzerajú, ale aj efektívne pracujú pre váš
+                            biznis.</p>
+                        <ul class="split__list">
+                            <li>Webové stránky na mieru</li>
+                            <li>E-commerce riešenia</li>
+                            <li>Webové portály a CMS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--light service-section">
+            <div class="container">
+                <div class="split split--reverse">
+                    <div class="split__content animate-slide-left">
+                        <span class="split__label">02</span>
+                        <h2 class="split__title" data-i18n="internet.sec2Title">search engine optimization (SEO)<span
+                                class="yellow-dot">.</span></h2>
+                        <p class="split__text" data-i18n="internet.sec2Text">Ak vás zákazníci nenájdu na prvej stránke
+                            vyhľadávača, akoby ste ani neexistovali. Postaráme sa o to, aby vaša stránka získala lepšiu
+                            viditeľnosť, vyšší organický dosah a kvalitnejšiu návštevnosť.</p>
+                        <ul class="split__list">
+                            <li>On-page a off-page SEO</li>
+                            <li>Technický audit webu</li>
+                            <li>Obsahová stratégia a link building</li>
+                        </ul>
+                    </div>
+                    <div class="split__media animate-slide-right animate-scale-in">
+                        <img src="/assets/images/service-internet.png" alt="SEO optimalizácia" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--dark service-section">
+            <div class="container">
+                <div class="split">
+                    <div class="split__media animate-scale-in">
+                        <img src="/assets/images/service-internet.png" alt="Údržba webu" loading="lazy">
+                    </div>
+                    <div class="split__content animate-slide-right">
+                        <span class="split__label">03</span>
+                        <h2 class="split__title" data-i18n="internet.sec3Title">údržba webu<span
+                                class="yellow-dot">.</span></h2>
+                        <p class="split__text" data-i18n="internet.sec3Text">Gratulujeme, váš web je online! Ale tým to
+                            nekončí. Ak chcete, aby zostal relevantný, bezpečný a atraktívny pre návštevníkov, je
+                            potrebné sa oň pravidelne starať.</p>
+                        <ul class="split__list">
+                            <li>Pravidelné aktualizácie a zálohy</li>
+                            <li>Bezpečnostný monitoring</li>
+                            <li>Obsahové aktualizácie</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h4 class="footer__title" data-i18n="footer.contactTitle">kontakt</h4>
+                    <p class="footer__text">Tel: <a href="tel:+421907129715" class="footer__link">+421 907 129
+                            715</a><br>mail: <a href="mailto:info@ideamachine.sk"
+                            class="footer__link">info@ideamachine.sk</a></p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title" data-i18n="footer.billingTitle">fakturačné údaje</h4>
+                    <p class="footer__text" data-i18n="footer.billingText">idea machine s.r.o.<br>Rázusová 13<br>977 01
+                        Brezno<br>Slovensko<br><br>IČO: 52322998<br>DIČ: 2121002180</p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title" data-i18n="footer.officeTitle">office</h4>
+                    <p class="footer__text" data-i18n="footer.officeText">Oskara Čepana 23a<br>917 08
+                        Trnava<br>Slovensko</p>
+                </div>
+            </div>
+            <p class="footer__about" data-i18n="footer.about">Sme skupina kreatívcov, ktorí sa rozhodli využiť svoje
+                rozsiahle skúsenosti pri práci na projektoch čo nás bavia, aby sme vytvorili niečo výnimočné pre Vás —
+                našich klientov.</p>
+        </div>
+    </footer>
+    <button class="back-to-top" aria-label="Späť nahor"><svg viewBox="0 0 24 24">
+            <path d="M7 14l5-5 5 5z" />
+        </svg></button>
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/animations.js"></script>
+    <script type="module" src="/js/i18n.js"></script>
+</body>
+
+</html>
